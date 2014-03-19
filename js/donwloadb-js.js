@@ -18,7 +18,7 @@ function downloadListCtrl($scope) {
                 net: "Version 3.5 or later",
                 os: "Windows® 2003 &amp; 2008 Server (32-bit or 64-bit) including R2, with IIS installed, running in 32-bit mode"
             },
-            tags: "Network Monitoring Software, Network Performance Monitor, Networking Management, Networking Software, NPM, Network Device Mapping Topology Diagrams, Orion, Orion platform",
+            tags: "Network Monitoring Software, Network Performance Monitor, Networking Management, Networking Software, NPM, Network Device Mapping Topology Diagrams, Orion, Orion platform"
         },
         /*-----end of product-------*/
         {
@@ -40,7 +40,7 @@ function downloadListCtrl($scope) {
                 net: "Version 3.5 or later (.NET Framework 4.0 is recommended)",
                 os: "Windows® 2003 &amp; 2008 Server (32-bit or 64-bit) including R2, with IIS installed, running in 32-bit mode"
             },
-            tag: "IP Address Manager, IP Address Software, IP Address Monitoring, IP Address Management Tool, IPAM Solutions, IPAM Software, IPAM, IP Address Conflict Detection, DNS management, DHCP management, Subnet Scan, Subnet allocation, IP Address history, DHCP scope utilization., IP Address Tracking",
+            tag: "IP Address Manager, IP Address Software, IP Address Monitoring, IP Address Management Tool, IPAM Solutions, IPAM Software, IPAM, IP Address Conflict Detection, DNS management, DHCP management, Subnet Scan, Subnet allocation, IP Address history, DHCP scope utilization., IP Address Tracking"
         },
         /*-----end of product-------*/
         {
@@ -62,7 +62,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "Windows® 2003 &amp; 2008 Server (32-bit or 64-bit), with IIS installed"
             },
-            tags: "Netflow Analyzer, Netflow Traffic Analyzer, Netflow Data, Netflow Reporting, Netflow Traffic Analysis, Netflow Monitoring Software, NTA, Network Bandwidth Monitoring Management, Network Traffic Monitoring Management, Orion, Orion platform",
+            tags: "Netflow Analyzer, Netflow Traffic Analyzer, Netflow Data, Netflow Reporting, Netflow Traffic Analysis, Netflow Monitoring Software, NTA, Network Bandwidth Monitoring Management, Network Traffic Monitoring Management, Orion, Orion platform"
         },
         /*-----end of product-------*/
         {
@@ -84,7 +84,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "none"
             },
-            tags: "",
+            tags: "Network Bandwidth Analyzer Pack, network, bandwidth, analyzer, pack"
         },
         /*-----end of product-------*/
         {
@@ -106,7 +106,7 @@ function downloadListCtrl($scope) {
                 net: "Version 3.5 or later",
                 os: "Windows® 2003 &amp; 2008 Server (32-bit or 64-bit) including R2, with IIS installed, running in 32-bit mode Windows 2008 Server (32-bit or 64-bit) with IIS installed, running in 32-bit mode"
             },
-            tags: "VoIP Monitoring, VoIP Troubleshooting, VoIP and WAN Performance Monitoring, VoIP and WAN Monitoring Software, WAN Performance Monitoring, WAN Performance Software, VNQM, Call troubleshooting, Conference Call Troubleshooting, Call Signaling, Call Quality Monitoring, Trunk Utilization, Orion, Orion platform",
+            tags: "VoIP Monitoring, VoIP Troubleshooting, VoIP and WAN Performance Monitoring, VoIP and WAN Monitoring Software, WAN Performance Monitoring, WAN Performance Software, VNQM, Call troubleshooting, Conference Call Troubleshooting, Call Signaling, Call Quality Monitoring, Trunk Utilization, Orion, Orion platform"
         },
         /*-----end of product-------*/
         {
@@ -128,7 +128,7 @@ function downloadListCtrl($scope) {
                 net: ".NET 3.5 SP1 or .NET 4.0",
                 os: "Windows® Server 2003, 2008, &amp; 2012 (32-bit or 64-bit), and with IIS installed, running in 32-bit mode"
             },
-            tags: "User Device Tracking Software, Switch Port Management, Switch Monitoring, Whitelist, Port Shutdown, Watchlist, MAC Address, UDT, Orion, Orion platform",
+            tags: "User Device Tracking Software, Switch Port Management, Switch Monitoring, Whitelist, Port Shutdown, Watchlist, MAC Address, UDT, Orion, Orion platform"
         },
         /*-----end of product-------*/
         {
@@ -149,7 +149,8 @@ function downloadListCtrl($scope) {
                 memory: "none",
                 net: "none",
                 os: "none"
-            }
+            },
+			tags:"IP Control Bundle, ip, control, bundle"			
         },
         /*-----end of product-------*/
         {
@@ -171,7 +172,7 @@ function downloadListCtrl($scope) {
                 net: "NET 3.5 SP1 + .NET 4.0",
                 os: "Windows Server 2003 SP2 and 2003 R2 SP2 (32-bit &amp; 64-bit), Windows Server 2008, 2008 SP2, 2008 R2 and 2008 R2 SP1, Windows Server 2012"
             },
-            tags: "Network Configuration Management, Configuration Backup, Change Detection, Policy Compliance, Inventory, Bulk Change, End of Life, NCM, Cirrus, Orion, Orion platform",
+            tags: "Network Configuration Management, Configuration Backup, Change Detection, Policy Compliance, Inventory, Bulk Change, End of Life, NCM, Cirrus, Orion, Orion platform"
         },
         /*-----end of product-------*/
         {
@@ -193,7 +194,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "Minimum: Windows 7, Windows Vista, Windows 2003 Server SP2, Windows XP (SP2 or later), Windows 2000, Windows 2000 Server For Larger Firewall Configuration: 64-bit Windows 7, 64-bit Windows 2008 Server R2, 64-bit Windows XP Pro"
             },
-            tags: "Firewall Security, Security Management Software, Firewall Security Management, Firewall Security Software, Firewall Change Management, Security Automation, FSM",
+            tags: "Firewall Security, Security Management Software, Firewall Security Management, Firewall Security Software, Firewall Change Management, Security Automation, FSM"
         },
         /*-----end of product-------*/
         {
@@ -215,7 +216,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "Microsoft Windows 7, Vista Business and Ultimate Editions, XP SP3, Server 2008 and R2, and Windows Server 2003 SP1 and R2. .Net Framework Version 3.5 SP1 or later."
             },
-            tags: "Network Diagnostic Tools, Networking Tools, Network Tools, Monitoring, Monitoring Tools, Monitoring Software, Cisco Management Tools, Network Discovery Tools",
+            tags: "Network Diagnostic Tools, Networking Tools, Network Tools, Monitoring, Monitoring Tools, Monitoring Software, Cisco Management Tools, Network Discovery Tools"
         },
         /*-----end of product-------*/
         {
@@ -237,7 +238,7 @@ function downloadListCtrl($scope) {
                 net: "3.5 or 4.0",
                 os: "Windows XP – Windows 8 desktop OS and Windows Server 2003-2012"
             },
-            tags: "Network Mapping Software, Network Mapping Tools, Network Topology Software, Network Topology Tools, NTM",
+            tags: "Network Mapping Software, Network Mapping Tools, Network Topology Software, Network Topology Tools, NTM"
         },
         /*-----end of product-------*/
         {
@@ -259,7 +260,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "none"
             },
-            tags: "Web Help Desk Software, IT Administration Software, Help Desk, ITSM, ITIL, Asset Management, Service Desk",
+            tags: "Web Help Desk Software, IT Administration Software, Help Desk, ITSM, ITIL, Asset Management, Service Desk"
         },
         /*-----end of product-------*/
         {
@@ -281,7 +282,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "none"
             },
-            tags: "IT Administration Software, IT Administration Application, Mobile IT Monitoring and Management, Mobile Administration Software, SolarWinds Mobile, NPM Mobile, SAM Mobile, Orion Mobile, Mobile, VMware, Active Directory, Exchange, Backup",
+            tags: "IT Administration Software, IT Administration Application, Mobile IT Monitoring and Management, Mobile Administration Software, SolarWinds Mobile, NPM Mobile, SAM Mobile, Orion Mobile, Mobile, VMware, Active Directory, Exchange, Backup"
         },
         /*-----end of product-------*/
         {
@@ -302,7 +303,8 @@ function downloadListCtrl($scope) {
                 memory: "none",
                 net: "none",
                 os: "none"
-            }
+            },
+			tags:"Network Gardian Bundle, Network, Gardian, Bundle"
         },
         /*-----end of product-------*/
         {
@@ -324,7 +326,7 @@ function downloadListCtrl($scope) {
                 net: "Version 3.5 .NET Framework, 4.0 is recommended",
                 os: "Windows Server 2003 or Windows Server 2008 R2, and Windows Server 2012, with IIS in 32-bit mode. Microsoft IIS, version 6.0 and higher, in 32-bit mode must be installed."
             },
-            tags: "Server Monitoring, Server Monitoring Software, Server Monitor, Application Monitoring, Application Monitoring Software, Server and Application Monitoring, Server and Application Monitor, SAM, Windows Event Log, SQL Server Performance, SQL Server Monitoring, SQL monitoring, Microsoft Active Directory Performance Monitoring Management, Microsoft Windows Server Monitoring Management, Microsoft SQL Server Performance, Microsoft SQL Server Monitoring, Orion, Orion platform",
+            tags: "Server Monitoring, Server Monitoring Software, Server Monitor, Application Monitoring, Application Monitoring Software, Server and Application Monitoring, Server and Application Monitor, SAM, Windows Event Log, SQL Server Performance, SQL Server Monitoring, SQL monitoring, Microsoft Active Directory Performance Monitoring Management, Microsoft Windows Server Monitoring Management, Microsoft SQL Server Performance, Microsoft SQL Server Monitoring, Orion, Orion platform"
         },
         /*-----end of product-------*/
         {
@@ -346,7 +348,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "Runs on VMware vSphere™ v5.x, 4.x, or Microsoft® Hyper-V 2008/2012"
             },
-            tags: "Virtualization Management, Virtualization Management Software, Performance Monitoring and Management, VMware vSphere Performance Monitoring Management",
+            tags: "Virtualization Management, Virtualization Management Software, Performance Monitoring and Management, VMware vSphere Performance Monitoring Management"
         },
         /*-----end of product-------*/
         {
@@ -368,7 +370,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "Windows 2003/2008/2012 64-bit; Linux RedHat/SUSE/CentOS 64-bit"
             },
-            tags: "Storage Performance Management, Storage Capacity Management, Storage Performance and Capacity Management Software",
+            tags: "Storage Performance Management, Storage Capacity Management, Storage Performance and Capacity Management Software"
         },
         /*-----end of product-------*/
         {
@@ -390,7 +392,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "none"
             },
-            tags: "Patching Software, Patching Tools, Automated Patching Software, Agentless Server and Application Monitoring, Server and Application Alerting, Server and Application Reporting",
+            tags: "Patching Software, Patching Tools, Automated Patching Software, Agentless Server and Application Monitoring, Server and Application Alerting, Server and Application Reporting"
         },
         /*-----end of product-------*/
         {
@@ -412,7 +414,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "none"
             },
-            tags: "Log Management, Log and Event Management, Log Event Manager, Log and Event Manager, Windows Event Log Monitor, Event Log Monitoring, Event Log Management, LEM, Security, Security Software, SIEM, Security Information and Event Management, Log Analysis, Event Log Correlation Analysis",
+            tags: "Log Management, Log and Event Management, Log Event Manager, Log and Event Manager, Windows Event Log Monitor, Event Log Monitoring, Event Log Management, LEM, Security, Security Software, SIEM, Security Information and Event Management, Log Analysis, Event Log Correlation Analysis"
         },
         /*-----end of product-------*/
         {
@@ -434,6 +436,7 @@ function downloadListCtrl($scope) {
                 net: "Version 4 or later",
                 os: "Windows® 2003 &amp; 2008 Server (32-bit or 64-bit) including R2, with IIS installed, running in 32-bit mode"
             },
+			tags:"Web Application Monitoring, Website Monitoring, Monitoring, Web, Application"
         },
         /*-----end of product-------*/
         {
@@ -455,7 +458,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "none"
             },
-            tags: "Remote Support Software, Remote Administration Software, IT Administration Software, Active Directory Management Tools, Desktop Remote Control, DameWare, Mini Remote Control, DameWare NT Utilities, DameWare Remote Support, Help Desk",
+            tags: "Remote Support Software, Remote Administration Software, IT Administration Software, Active Directory Management Tools, Desktop Remote Control, DameWare, Mini Remote Control, DameWare NT Utilities, DameWare Remote Support, Help Desk"
         },
         /*-----end of product-------*/
         {
@@ -477,7 +480,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "none"
             },
-            tags: "Remote Support Software, Remote Administration Software, IT Administration Software, Active Directory Management Tools, Desktop Remote Control, DameWare, Mini Remote Control, DameWare NT Utilities, DameWare Remote Support, Help Desk",
+            tags: "Remote Support Software, Remote Administration Software, IT Administration Software, Active Directory Management Tools, Desktop Remote Control, DameWare, Mini Remote Control, DameWare NT Utilities, DameWare Remote Support, Help Desk"
         },
         /*-----end of poduct-------*/
         {
@@ -499,7 +502,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "none"
             },
-            tags: "FTP, FTP Server, Secure File Transfer, File Transfer, SFTP, FTPS, Web Transfer, Large Files, Attachments, Remote Access, Folder Management, File Management, File Sharing, Ad Hoc, Ad Hoc File Transfer, Secure File Sharing, Share Files, Request Files, Receive Files, Send Files, Managed File Transfer, MFT, Serv-U, Serv-U Corporate, Serv-U Bronze, Serv-U Silver, Serv-U Gold, Serv-U Platinum, Security Software, FTP Software, Mobile File Transfer, Mobile Document, Remote Folders, Remote Files, ServU",
+            tags: "FTP, FTP Server, Secure File Transfer, File Transfer, SFTP, FTPS, Web Transfer, Large Files, Attachments, Remote Access, Folder Management, File Management, File Sharing, Ad Hoc, Ad Hoc File Transfer, Secure File Sharing, Share Files, Request Files, Receive Files, Send Files, Managed File Transfer, MFT, Serv-U, Serv-U Corporate, Serv-U Bronze, Serv-U Silver, Serv-U Gold, Serv-U Platinum, Security Software, FTP Software, Mobile File Transfer, Mobile Document, Remote Folders, Remote Files, ServU"
         },
         /*-----end of product-------*/
         {
@@ -520,7 +523,8 @@ function downloadListCtrl($scope) {
                 memory: "none",
                 net: "none",
                 os: "none"
-            }
+            },
+			tags:"System Center Extension Pack, system, center, extentions, pack"
         },
         /*-----end of product-------*/
         {
@@ -541,7 +545,9 @@ function downloadListCtrl($scope) {
                 memory: "none",
                 net: "none",
                 os: "none"
-            }
+            },
+			tags:"Virtualized Application Performance Pack, virtualized, application, performance, pack"
+			
         },
         /*-----end of product-------*/
         {
@@ -562,7 +568,9 @@ function downloadListCtrl($scope) {
                 memory: "none",
                 net: "none",
                 os: "none"
-            }
+            },
+			tags:"Web App Monitoring Pack, web, application, monitoring, pack"
+			
         },
         /*-----end of product-------*/
         {
@@ -584,7 +592,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "Windows<sup>®</sup>, Linux<sup>®</sup> or UNIX<sup>®</sup> supporting Java JRE 1.5 or higher."
             },
-            tags: "Database Performance, SQL Server Performance, SQL Server Performance Tuning, SQL Server Wait Type Analysis, SQL Server Extended Events, SQL Server on VMware,  SQL Performance,   SQL Server Monitoring, SQL Server Monitor, SQL Optimization, SQL Server 2012 performance, SQL Server 2008 performance, Ignite",
+            tags: "Database Performance, SQL Server Performance, SQL Server Performance Tuning, SQL Server Wait Type Analysis, SQL Server Extended Events, SQL Server on VMware,  SQL Performance,   SQL Server Monitoring, SQL Server Monitor, SQL Optimization, SQL Server 2012 performance, SQL Server 2008 performance, Ignite"
         },
         /*-----end of product-------*/
         {
@@ -606,7 +614,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "Windows<sup>®</sup>, Linux<sup>®</sup> or UNIX<sup>®</sup> supporting Java JRE 1.5 or higher."
             },
-            tags: "Database Performance, Oracle Performance, Oracle Performance Tuning, Oracle Wait Event Analysis, Oracle SE performance, Oracle Standard Edition Performance, Oracle RAC Performance,  SQL Performance, Oracle  Monitoring, Oracle Monitor, SQL Optimization, Oracle 10g performance, Oracle 11g performance, Ignite",
+            tags: "Database Performance, Oracle Performance, Oracle Performance Tuning, Oracle Wait Event Analysis, Oracle SE performance, Oracle Standard Edition Performance, Oracle RAC Performance,  SQL Performance, Oracle  Monitoring, Oracle Monitor, SQL Optimization, Oracle 10g performance, Oracle 11g performance, Ignite"
         },
         /*-----end of product-------*/
         {
@@ -628,7 +636,7 @@ function downloadListCtrl($scope) {
                 net: "none",
                 os: "Windows<sup>®</sup>, Linux<sup>®</sup> or UNIX<sup>®</sup> supporting Java JRE 1.5 or higher."
             },
-            tags: "Database Performance, DB2 Performance, DB2 Performance Tuning, SQL Performance, Database locking, DB2 Monitoring, DB2 Monitor, SQL Optimization, DB2 LUW performance, DB2 UDB Performance, Ignite",
+            tags: "Database Performance, DB2 Performance, DB2 Performance Tuning, SQL Performance, Database locking, DB2 Monitoring, DB2 Monitor, SQL Optimization, DB2 LUW performance, DB2 UDB Performance, Ignite"
         },
         /*-----end of product-------*/
         {
