@@ -74,11 +74,10 @@ ul.d_tabs>li.selected {
 	width:22px;
 	float:left;
 	margin-top:9px;
-	background: url("../img/search.png") no-repeat;
 }
 .d_searchBarBox {
 	background: #eee;
-	border-top: 2px #bbb solid;
+	border-top: 1px #bbb solid;
 }
 .d_searchBar {
 	overflow:hidden;

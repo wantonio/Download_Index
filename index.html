@@ -46,14 +46,24 @@
 
             <ul class="d_tabContent">
                 <li id="browseProductsTab" class="show">
+					<div class="d_searchBarBox">
+                        <div class="d_searchBar">
+                            <select class="searchCategory" ng-model="selectCategory">
+								<option>All Categories</option>
+								<option>My Network Performance</option>
+								<option>My Apps & Systems</option>
+								<option>My Security & Compliance</option>
+								<option>My Database & Performance</option>
+							</select>
+                        </div>
+                    </div>
+					<!--End of Select Section-->
                     <div class="d_productByCategorie">
-                        <div class="NPM_category">
+                        <div class="NPM_category" ng-show="isSlected('My Network Performance')">
                             <div class="d_categoryTitle">
                                 <p>Network Managment</p>
                             </div>
-                            <!-- ends d_categoryTitle -->
-
-                            
+							<!-- ends d_categoryTitle -->
                             <ul class="d_category">
                                 <li ng-repeat="product in productCat  | filter:{category:'NM'}">
                                     <div class="d_categories {{product.category}}">
@@ -105,7 +115,7 @@
                         </div>
                         <!-- SAM_category -->
 
-                        <div class="LEM_category">
+                        <div class="LEM_category" >
                             <div class="d_categoryTitle cat-lem">
                                 <p>Log & event Manager</p>
                             </div>
@@ -168,9 +178,10 @@
                         <div class="d_searchBar">
                             <p>Search Products</p>
                             <input type="text" class="searchText" ng-model="productSearchInput">
-                            <a class="btnSearch" href="#"></a>
+                            <a class="btnSearch" href="#">Clear</a>
                         </div>
                     </div>
+					<!--End of Search Section-->
                     <div class="productsBySearch" ng-show="productSearchInput">
                         <div class="d_categoryTitle">
                             <p>Results for: "{{productSearchInput}}"</p>

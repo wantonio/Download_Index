@@ -662,16 +662,20 @@ function downloadListCtrl($scope) {
         }
         /*-----end of product-------*/
     ];
+	
+	//Category Selection Fuction
 
 
 } //end of app
 
+
+//Tabs Function
 $(function() {
-    $("ul.d-tabs > li").click(function() {
-        $("ul.d-tabs > li").removeClass("selected");
+    $("ul.d_tabs > li").click(function() {
+        $("ul.d_tabs > li").removeClass("selected");
         var elDiv = $(this).attr('class');
         $(this).addClass("selected");
-        $(".d-tabContent > li").hide();
+        $(".d_tabContent > li").hide();
         $("#" + elDiv).show();
     });
 });
