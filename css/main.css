@@ -214,17 +214,18 @@ ul.d_tabs>li.selected {
 .d_options a {
 	text-decoration: none;
 	padding: 0 0 5px 25px;
+	font-size:13px;
 }
 .d_features a {
-	color:#f8b12f;
-	background:url("../img/icons.png") 0 0 no-repeat;
+	color:#7f7f7f;
+	background:url("../img/icons.png") 0 -1px no-repeat;
 	font-size: 13px;
 }
 .d_download a {
 	color:#2fb81b;
-	background:url("../img/icons.png") 0 -22px no-repeat;
+	background:url("../img/icons.png") 0 -25px no-repeat;
 }
 .d_demo a {
 	color:#3780bb;
-	background:url("../img/icons.png") 0 -44px no-repeat;
+	background:url("../img/icons.png") 0 -47px no-repeat;
 }

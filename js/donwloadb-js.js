@@ -663,7 +663,7 @@ function downloadListCtrl($scope) {
         /*-----end of product-------*/
     ];
 	
-	//Category Selection Fuction
+	//Category Selection Function
 
 
 } //end of app
