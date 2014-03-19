@@ -49,17 +49,17 @@
 					<div class="d_searchBarBox">
                         <div class="d_searchBar">
                             <select class="searchCategory" ng-model="selectCategory">
-								<option>All Categories</option>
-								<option>My Network Performance</option>
-								<option>My Apps & Systems</option>
-								<option>My Security & Compliance</option>
-								<option>My Database & Performance</option>
+								<option value="all">All Categories</option>
+								<option value="NM">My Network Performance</option>
+								<option value="SM">My Apps & Systems</option>
+								<option value="LEM">My Security & Compliance</option>
+								<option value="DP">My Database & Performance</option>
 							</select>
                         </div>
                     </div>
 					<!--End of Select Section-->
                     <div class="d_productByCategorie">
-                        <div class="NPM_category" ng-show="isSlected('My Network Performance')">
+                        <div class="NPM_category" ng-if="selectCategory=='all' || selectCategory=='NM'">
                             <div class="d_categoryTitle">
                                 <p>Network Managment</p>
                             </div>
@@ -88,8 +88,8 @@
                         </div>
                         <!-- ends NPM_category -->
 
-                        <div class="SAM_category">
-                            <div class="d_categoryTitle cat-sm">
+                        <div class="SAM_category" ng-if="selectCategory=='all' || selectCategory=='SM'">
+                            <div class="d_categoryTitle cat-sm" >
                                 <p>Server & Aplication Manager</p>
                             </div>
                             <ul class="d_category">
@@ -115,7 +115,7 @@
                         </div>
                         <!-- SAM_category -->
 
-                        <div class="LEM_category" >
+                        <div class="LEM_category"  ng-if="selectCategory=='all' || selectCategory=='LEM'">
                             <div class="d_categoryTitle cat-lem">
                                 <p>Log & event Manager</p>
                             </div>
@@ -143,7 +143,7 @@
                         </div>
                         <!-- LEM_category -->
 
-                        <div class="DP_category">
+                        <div class="DP_category"  ng-if="selectCategory=='all' || selectCategory=='DP'">
                             <div class="d_categoryTitle cat-dp">
                                 <p>Database Management</p>
                             </div>
