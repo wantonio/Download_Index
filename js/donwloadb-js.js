@@ -675,7 +675,9 @@ $(function() {
         $("ul.d_tabs > li").removeClass("selected");
         var elDiv = $(this).attr('class');
         $(this).addClass("selected");
-        $(".d_tabContent > li").hide();
-        $("#" + elDiv).show();
+        $(".d_tabContent > li").fadeOut("fast",function(){
+			$("#" + elDiv).fadeIn("fast");
+		});
+        
     });
 });
