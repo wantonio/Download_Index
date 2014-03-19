@@ -663,9 +663,8 @@ function downloadListCtrl($scope) {
         /*-----end of product-------*/
     ];
 	
-	//Category Selection Function
-
-
+	//Category Selection Default
+    $scope.selectCategory = 'all';
 } //end of app
 
 
