@@ -1,5 +1,4 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -10,60 +9,199 @@
     <link rel="stylesheet" href="css/main.css">
     <script language="javascript" src="js/angular.min.js" type="text/javascript"></script>
     <script language="javascript" src="http://web.swcdn.net/web/js/jQuery/jquery-1.6.4.min.js" type="text/javascript"></script>
-    <script language="javascript" src="js/donwloadb-js.js" type="text/javascript"></script>
+    <script language="javascript" src="js/downloadb-js.js" type="text/javascript"></script>
+    <script language="javascript" src="js/main.js" type="text/javascript"></script>
 </head>
 
 <body>
     <div id="content" class="d_content_wrap">
         <div id="d_wrapper" class="d_content_wrap" ng-app ng-controller="downloadListCtrl">
 
-            <div class="hero-area d_content_center">
-                <h1 class="headline">Most Popular<strong>FREE TRIAL DOWNLOADS</strong>To Get You Started</h1>
-                <ul class="quadrant">
-                    <li class="{{product.category}}" ng-repeat="product in productCat | filter:{ featured: 'yes' }">
-                        <div class="background"></div>
-                        <h2>{{product.name}}</h2>
-                        <div class="screenshot">
-                            <img src="{{product.imageLink}}" alt="{{product.name}}" />
-                        </div>
-                        <!-- screenshot -->
-                        <p>{{product.subTitle}}</p>
-                        <a href="{{product.donwloadLink}}" class="btn green">Download Free Trial</a>
-                    </li>
+            <div class="d_hero_area d_content_center">
+                <h1 class="d_headline">Most Popular
+                    <strong>FREE TRIAL DOWNLOADS</strong>To Get You Started</h1>
+                    <ul class="d_quadrant">
+                        <li class="{{product.category}}" ng-repeat="product in productCat | filter:{ featured: 'yes' }">
+                            <div class="d_background"></div>
+                            <h2>{{product.name}}</h2>
+                            <div class="screenshot">
+                                <img src="{{product.imageLink}}" alt="{{product.name}}" />
+                            </div>
+                            <!-- screenshot -->
+                            <p>{{product.subTitle}}</p>
+                            <a href="{{product.donwloadLink}}" class="d_btn d_green">
+                                <div class="d_textWrap">
+                                    <span class="d_download">DOWNLOAD FREE TRIAL</span>
+                                    <span class="d_fully">Fully Functional for 30 days</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- quadrant -->
+                </div>
+                <!-- hero-area content-center -->
+
+                <ul class="d_tabs d_content_center">
+                    <li class="browseProductsTab d_selected">BROWSE All PRODUCTS</li>
+                    <li class="searchTab">FIND A PRODUCT USING KEYWORDS</li>
                 </ul>
-                <!-- quadrant -->
-            </div>
-            <!-- hero-area content-center -->
+                <!-- ends d_tabs -->
 
-            <ul class="d_tabs d_content_center">
-                <li class="browseProductsTab selected">BROWSE All PRODUCTS</li>
-                <li class="searchTab">FIND A PRODUCT USING KEYWORDS</li>
-            </ul>
-            <!-- ends d_tabs -->
-
-            <ul class="d_tabContent">
-                <li id="browseProductsTab" class="show">
-                    <div class="d_searchBarBox">
-                        <div class="d_searchBar d_content_center">
-                            <select class="searchCategory" ng-model="selectCategory">
-                                <option value="all">All Categories</option>
-                                <option value="NM">Network Performance</option>
-                                <option value="SM">Apps &amp; Systems</option>
-                                <option value="LEM">Security &amp; Compliance</option>
-                                <option value="DP">Database &amp; Performance</option>
-                            </select>
+                <ul class="d_tabContent">
+                    <li id="browseProductsTab" class="d_show">
+                        <div class="d_searchBarBox">
+                            <div class="d_searchBar d_content_center">
+                                <select class="searchCategory" ng-model="selectCategory">
+                                    <option value="all">All Categories</option>
+                                    <option value="NM">Network Performance</option>
+                                    <option value="SM">Apps &amp; Systems</option>
+                                    <option value="LEM">Security &amp; Compliance</option>
+                                    <option value="DP">Database &amp; Performance</option>
+                                </select>
+                            </div>
                         </div>
-                    </div>
-                    <!--End of Select Section-->
-                    <div class="d_productByCategorie">
-                        <div class="NPM_category" ng-if="selectCategory=='all' || selectCategory=='NM'">
+                        <!--End of Select Section-->
+                        <div class="d_productByCategorie">
+                            <div class="NPM_category" ng-if="selectCategory=='all' || selectCategory=='NM'">
+                                <div class="d_categoryTitle">
+                                    <p>Network Managment</p>
+                                </div>
+                                <!-- ends d_categoryTitle -->
+                                <div class="d_category">
+                                    <ul>
+                                        <li ng-repeat="product in productCat  | filter:{category:'NM'}">
+                                            <div class="d_categories {{product.category}}">
+                                                <p>{{product.name}}</p>
+                                                <ul class="d_options">
+                                                    <li class="d_features">
+                                                        <a href="#">View features &#38; Specs</a> 
+                                                    </li>
+                                                    <li class="d_download">
+                                                        <a href="{{product.donwloadLink}}">Download Free Trial</a> 
+                                                    </li>
+                                                    <li class="d_demo">
+                                                        <a href="{{product.demolink}}">Interactive Demo</a> 
+                                                    </li>
+                                                </ul>
+                                                <!-- ends d_options -->
+                                            </div>
+                                            <!-- ends d_categories -->
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- ends d_category -->
+                            </div>
+                            <!-- ends NPM_category -->
+
+                            <div class="SAM_category" ng-if="selectCategory=='all' || selectCategory=='SM'">
+                                <div class="d_categoryTitle cat-sm">
+                                    <p>Server &amp; Aplication Manager</p>
+                                </div>
+                                <div class="d_category">
+                                    <ul>
+                                        <li ng-repeat="product in productCat | filter:{category:'SM'}">
+                                            <div class="d_categories {{product.category}}">
+                                                <p>{{product.name}}</p>
+                                                <ul class="d_options">
+                                                    <li class="d_features">
+                                                        <a href="#">View features &#38; Specs</a> 
+                                                    </li>
+                                                    <li class="d_download">
+                                                        <a href="{{product.donwloadLink}}">Download Free Trial</a> 
+                                                    </li>
+                                                    <li class="d_demo">
+                                                        <a href="{{product.demolink}}">Interactive Demo</a> 
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- ends d_categories -->
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- ends d_category -->
+                            </div>
+                            <!-- ends SAM_category -->
+
+                            <div class="LEM_category" ng-if="selectCategory=='all' || selectCategory=='LEM'">
+                                <div class="d_categoryTitle cat-lem">
+                                    <p>Log &amp; event Manager</p>
+                                </div>
+                                <!-- ends d_categoryTitle -->
+                                <div class="d_category">
+                                    <ul>
+                                        <li ng-repeat="product in productCat | filter:{category:'LEM'}">
+                                            <div class="d_categories {{product.category}}">
+                                                <p>{{product.name}}</p>
+                                                <ul class="d_options">
+                                                    <li class="d_features">
+                                                        <a href="#">View features &#38; Specs</a> 
+                                                    </li>
+                                                    <li class="d_download">
+                                                        <a href="{{product.donwloadLink}}">Download Free Trial</a> 
+                                                    </li>
+                                                    <li class="d_demo">
+                                                        <a href="{{product.demolink}}">Interactive Demo</a> 
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <!-- ends d_categories -->
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- ends d_category -->
+                            </div>
+                            <!-- ends LEM_category -->
+
+                            <div class="DP_category" ng-if="selectCategory=='all' || selectCategory=='DP'">
+                                <div class="d_categoryTitle cat-dp">
+                                    <p>Database Management</p>
+                                </div>
+                                <div class="d_category">
+                                    <ul>
+                                        <li ng-repeat="product in productCat | filter:{category:'DP'}">
+                                            <div class="d_categories {{product.category}}">
+                                                <p>{{product.name}}</p>
+                                                <ul class="d_options">
+                                                    <li class="d_features">
+                                                        <a href="#">View features &#38; Specs</a> 
+                                                    </li>
+                                                    <li class="d_download">
+                                                        <a href="{{product.donwloadLink}}">Download Free Trial</a> 
+                                                    </li>
+                                                    <li class="d_demo">
+                                                        <a href="{{product.demolink}}">Interactive Demo</a> 
+                                                    </li>
+                                                </ul>
+                                                <!-- ends d_options -->
+                                            </div>
+                                            <!-- ends d_categories -->
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- ends d_category -->
+                            </div>
+                            <!-- ends DP_category -->
+
+                        </div>
+                        <!-- ends d_productByCategorie -->
+                    </li>
+                    <!-- ends browseProductsTab -->
+                    <li id="searchTab">
+                        <div class="d_searchBarBox">
+                            <div class="d_searchBar d_content_center">
+                                <p>Search Products</p>
+                                <input type="text" class="searchText" ng-model="productSearchInput">
+                                <a class="btnSearch" href="#">Clear</a>
+                            </div>
+                        </div>
+                        <!--End of Search Section-->
+                        <div class="d_productsBySearch" ng-show="productSearchInput">
                             <div class="d_categoryTitle">
-                                <p>Network Managment</p>
+                                <p>Results for: "{{productSearchInput}}"</p>
                             </div>
-                            <!-- ends d_categoryTitle -->
                             <div class="d_category">
                                 <ul>
-                                    <li ng-repeat="product in productCat  | filter:{category:'NM'}">
+                                    <li ng-repeat="product in productCat | filter:{ tags: productSearchInput }">
                                         <div class="d_categories {{product.category}}">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
@@ -79,150 +217,18 @@
                                             </ul>
                                             <!-- ends d_options -->
                                         </div>
-                                        <!-- ends d_categories -->
                                     </li>
                                 </ul>
                             </div>
-                            <!-- ends d_category -->
                         </div>
-                        <!-- ends NPM_category -->
-
-                        <div class="SAM_category" ng-if="selectCategory=='all' || selectCategory=='SM'">
-                            <div class="d_categoryTitle cat-sm">
-                                <p>Server &amp; Aplication Manager</p>
-                            </div>
-                            <div class="d_category">
-                                <ul>
-                                    <li ng-repeat="product in productCat | filter:{category:'SM'}">
-                                        <div class="d_categories {{product.category}}">
-                                            <p>{{product.name}}</p>
-                                            <ul class="d_options">
-                                                <li class="d_features">
-                                                    <a href="#">View features &#38; Specs</a> 
-                                                </li>
-                                                <li class="d_download">
-                                                    <a href="{{product.donwloadLink}}">Download Free Trial</a> 
-                                                </li>
-                                                <li class="d_demo">
-                                                    <a href="{{product.demolink}}">Interactive Demo</a> 
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <!-- ends d_categories -->
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- ends d_category -->
-                        </div>
-                        <!-- ends SAM_category -->
-
-                        <div class="LEM_category" ng-if="selectCategory=='all' || selectCategory=='LEM'">
-                            <div class="d_categoryTitle cat-lem">
-                                <p>Log &amp; event Manager</p>
-                            </div>
-                            <!-- ends d_categoryTitle -->
-                            <div class="d_category">
-                                <ul>
-                                    <li ng-repeat="product in productCat | filter:{category:'LEM'}">
-                                        <div class="d_categories {{product.category}}">
-                                            <p>{{product.name}}</p>
-                                            <ul class="d_options">
-                                                <li class="d_features">
-                                                    <a href="#">View features &#38; Specs</a> 
-                                                </li>
-                                                <li class="d_download">
-                                                    <a href="{{product.donwloadLink}}">Download Free Trial</a> 
-                                                </li>
-                                                <li class="d_demo">
-                                                    <a href="{{product.demolink}}">Interactive Demo</a> 
-                                                </li>
-                                            </ul>
-                                        </div>
-                                        <!-- ends d_categories -->
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- ends d_category -->
-                        </div>
-                        <!-- ends LEM_category -->
-
-                        <div class="DP_category" ng-if="selectCategory=='all' || selectCategory=='DP'">
-                            <div class="d_categoryTitle cat-dp">
-                                <p>Database Management</p>
-                            </div>
-                            <div class="d_category">
-                                <ul>
-                                    <li ng-repeat="product in productCat | filter:{category:'DP'}">
-                                        <div class="d_categories {{product.category}}">
-                                            <p>{{product.name}}</p>
-                                            <ul class="d_options">
-                                                <li class="d_features">
-                                                    <a href="#">View features &#38; Specs</a> 
-                                                </li>
-                                                <li class="d_download">
-                                                    <a href="{{product.donwloadLink}}">Download Free Trial</a> 
-                                                </li>
-                                                <li class="d_demo">
-                                                    <a href="{{product.demolink}}">Interactive Demo</a> 
-                                                </li>
-                                            </ul>
-                                            <!-- ends d_options -->
-                                        </div>
-                                        <!-- ends d_categories -->
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- ends d_category -->
-                        </div>
-                        <!-- ends DP_category -->
-
-                    </div>
-                    <!-- ends d_productByCategorie -->
-                </li>
-                <!-- ends browseProductsTab -->
-                <li id="searchTab">
-                    <div class="d_searchBarBox">
-                        <div class="d_searchBar d_content_center">
-                            <p>Search Products</p>
-                            <input type="text" class="searchText" ng-model="productSearchInput">
-                            <a class="btnSearch" href="#">Clear</a>
-                        </div>
-                    </div>
-                    <!--End of Search Section-->
-                    <div class="productsBySearch" ng-show="productSearchInput">
-                        <div class="d_categoryTitle">
-                            <p>Results for: "{{productSearchInput}}"</p>
-                        </div>
-                        <div class="d_category">
-                            <ul>
-                                <li ng-repeat="product in productCat | filter:{ tags: productSearchInput }">
-                                    <div class="d_categories {{product.category}}">
-                                        <p>{{product.name}}</p>
-                                        <ul class="d_options">
-                                            <li class="d_features">
-                                                <a href="#">View features &#38; Specs</a> 
-                                            </li>
-                                            <li class="d_download">
-                                                <a href="{{product.donwloadLink}}">Download Free Trial</a> 
-                                            </li>
-                                            <li class="d_demo">
-                                                <a href="{{product.demolink}}">Interactive Demo</a> 
-                                            </li>
-                                        </ul>
-                                        <!-- ends d_options -->
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </li>
-                <!-- ends searchTab -->
-            </ul>
-            <!-- ends d_tabContent -->
+                    </li>
+                    <!-- ends searchTab -->
+                </ul>
+                <!-- ends d_tabContent -->
+            </div>
+            <!-- ends d_wrapper -->
         </div>
-        <!-- ends d_wrapper -->
-    </div>
-    <!-- ends content -->
-</body>
+        <!-- ends content -->
+    </body>
 
-</html>
+    </html>
