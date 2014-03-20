@@ -57,10 +57,11 @@
                             <div class="d_searchBar d_content_center">
                                 <select class="searchCategory" ng-model="selectCategory">
                                     <option value="all">All Categories</option>
-                                    <option value="NM">Network Performance</option>
+                                    <option value="NM">Network Management</option>
                                     <option value="SM">Apps &amp; Systems</option>
                                     <option value="LEM">Security &amp; Compliance</option>
                                     <option value="DP">Database &amp; Performance</option>
+                                    <option value="FT">Free Tools</option>
                                 </select>
                             </div>
                         </div>
@@ -186,12 +187,12 @@
                             </div>
                             <!-- ends DP_category -->
 							
-							<div class="freetools-title">
-								<p>Free Network Tools & SysAdmin Tools</p>
+							<div class="freetools-title" ng-if="selectCategory=='all'">
+								<p><strong>Free Network Tools</strong> & SysAdmin Tools</p>
 							</div><!-- ends feetools title -->
-							<div class="FT_NM_category" ng-if="selectCategory=='all' || selectCategory=='FT'">
-								<div class="d_categoryTitle cat-ft-nm">
-                                    <p>Network Management</p>
+							<div class="NPM_category" ng-if="selectCategory=='all' || selectCategory=='FT'">
+								<div class="d_categoryTitle cat-nm">
+                                    <p>Network Management Free Tools</p>
                                 </div>
 								<div class="d_category">
                                     <ul>
@@ -212,9 +213,11 @@
                                         </li>
                                     </ul>
                                 </div>
+							</div>
                                 <!-- ends d_category -->
-								<div class="d_categoryTitle cat-ft-nm">
-                                    <p>Server & Aplication Manager</p>
+							<div class="SAM_category" ng-if="selectCategory=='all' || selectCategory=='FT'">
+								<div class="d_categoryTitle cat-sm">
+                                    <p>Server & Aplication Manager Free Tools</p>
                                 </div>
 								<div class="d_category">
                                     <ul>
@@ -235,9 +238,11 @@
                                         </li>
                                     </ul>
                                 </div>
+							</div>
                                 <!-- ends d_category -->
-								<div class="d_categoryTitle cat-ft-nm">
-                                    <p>Log & event Manager</p>
+							<div class="LEM_category" ng-if="selectCategory=='all' || selectCategory=='FT'">
+								<div class="d_categoryTitle cat-lem">
+                                    <p>Log & event Manager Free Tools</p>
                                 </div>
 								<div class="d_category">
                                     <ul>
@@ -258,9 +263,11 @@
                                         </li>
                                     </ul>
                                 </div>
+							</div>
                                 <!-- ends d_category -->
-								<div class="d_categoryTitle cat-ft-nm">
-                                    <p>Database Management</p>
+							<div class="DP_category" ng-if="selectCategory=='all' || selectCategory=='FT'">
+								<div class="d_categoryTitle cat-dp">
+                                    <p>Database Management Free Tools</p>
                                 </div>
 								<div class="d_category">
                                     <ul>
@@ -281,8 +288,9 @@
                                         </li>
                                     </ul>
                                 </div>
-                                <!-- ends d_category -->
+                                
 							</div>
+							<!-- ends d_category -->
                         </div>
                         <!-- ends d_productByCategorie -->
                     </li>

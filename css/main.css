@@ -217,6 +217,16 @@ strong {
 .cat-lem  p{color:#359ac0}
 .cat-dp  p{color:#45d7cb}
 
+.freetools-title{
+	width: 1024px;
+	margin: 0 auto;
+}
+
+.freetools-title p{
+	font-size: 30px;
+	margin: 15px 0;
+}
+
 .d_productsBySearch {
     background: #ddd;
     background: -moz-linear-gradient(top, #eee 0, #ddd 100%);
