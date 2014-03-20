@@ -29,6 +29,10 @@
                             </div>
                             <!-- screenshot -->
                             <p>{{product.subTitle}}</p>
+                        </li>
+                    </ul>
+                    <ul class="d_quadrant d_buttons">
+                        <li ng-repeat="product in productCat | filter:{ featured: 'yes' }">
                             <a href="{{product.donwloadLink}}" class="d_btn d_green">
                                 <div class="d_textWrap">
                                     <span class="d_download">DOWNLOAD FREE TRIAL</span>
