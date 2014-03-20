@@ -276,6 +276,7 @@ strong {
 /*------------------------------------------------ Categories ------------------------------------------------*/
 .d_categories {
     padding:12px;
+	border-top: solid 10px #faba23;
 }
 .NM.d_categories {
     border-top: solid 10px #faba23;
