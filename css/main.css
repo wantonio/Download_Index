@@ -310,11 +310,12 @@ strong {
     padding-bottom:20px;
 }
 .d_category>ul {
+    overflow: hidden;
     margin: -1%;
 }
 .d_category>ul>li {
     float:left;
-    width: 29.33%;
+    width: 31.33%;
     margin: 1%;
     background-color: #ffffff !important;
     background:url(../img/Icons/icon-npmBk.png) no-repeat;
