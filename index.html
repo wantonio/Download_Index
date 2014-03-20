@@ -67,7 +67,7 @@
                         <!--End of Select Section-->
                         <div class="d_productByCategorie">
                             <div class="NPM_category" ng-if="selectCategory=='all' || selectCategory=='NM'">
-                                <div class="d_categoryTitle">
+                                <div class="d_categoryTitle cat-nm">
                                     <p>Network Managment</p>
                                 </div>
                                 <!-- ends d_categoryTitle -->
@@ -185,7 +185,104 @@
                                 <!-- ends d_category -->
                             </div>
                             <!-- ends DP_category -->
-
+							
+							<div class="freetools-title">
+								<p>Free Network Tools & SysAdmin Tools</p>
+							</div><!-- ends feetools title -->
+							<div class="FT_NM_category" ng-if="selectCategory=='all' || selectCategory=='FT'">
+								<div class="d_categoryTitle cat-ft-nm">
+                                    <p>Network Management</p>
+                                </div>
+								<div class="d_category">
+                                    <ul>
+                                        <li ng-repeat="product in productCat | filter:{subcategory:'NM'}">
+                                            <div class="d_categories {{product.subcategory}}">
+                                                <p>{{product.name}}</p>
+                                                <ul class="d_options">
+                                                    <li class="d_features">
+                                                        <a href="#">View features &#38; Specs</a> 
+                                                    </li>
+                                                    <li class="d_download">
+                                                        <a href="{{product.donwloadLink}}">Download Free Tool</a> 
+                                                    </li>
+                                                </ul>
+                                                <!-- ends d_options -->
+                                            </div>
+                                            <!-- ends d_categories -->
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- ends d_category -->
+								<div class="d_categoryTitle cat-ft-nm">
+                                    <p>Server & Aplication Manager</p>
+                                </div>
+								<div class="d_category">
+                                    <ul>
+                                        <li ng-repeat="product in productCat | filter:{subcategory:'SM'}">
+                                            <div class="d_categories {{product.subcategory}}">
+                                                <p>{{product.name}}</p>
+                                                <ul class="d_options">
+                                                    <li class="d_features">
+                                                        <a href="#">View features &#38; Specs</a> 
+                                                    </li>
+                                                    <li class="d_download">
+                                                        <a href="{{product.donwloadLink}}">Download Free Tool</a> 
+                                                    </li>
+                                                </ul>
+                                                <!-- ends d_options -->
+                                            </div>
+                                            <!-- ends d_categories -->
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- ends d_category -->
+								<div class="d_categoryTitle cat-ft-nm">
+                                    <p>Log & event Manager</p>
+                                </div>
+								<div class="d_category">
+                                    <ul>
+                                        <li ng-repeat="product in productCat | filter:{subcategory:'LEM'}">
+                                            <div class="d_categories {{product.subcategory}}">
+                                                <p>{{product.name}}</p>
+                                                <ul class="d_options">
+                                                    <li class="d_features">
+                                                        <a href="#">View features &#38; Specs</a> 
+                                                    </li>
+                                                    <li class="d_download">
+                                                        <a href="{{product.donwloadLink}}">Download Free Tool</a> 
+                                                    </li>
+                                                </ul>
+                                                <!-- ends d_options -->
+                                            </div>
+                                            <!-- ends d_categories -->
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- ends d_category -->
+								<div class="d_categoryTitle cat-ft-nm">
+                                    <p>Database Management</p>
+                                </div>
+								<div class="d_category">
+                                    <ul>
+                                        <li ng-repeat="product in productCat | filter:{subcategory:'DP'}">
+                                            <div class="d_categories {{product.subcategory}}">
+                                                <p>{{product.name}}</p>
+                                                <ul class="d_options">
+                                                    <li class="d_features">
+                                                        <a href="#">View features &#38; Specs</a> 
+                                                    </li>
+                                                    <li class="d_download">
+                                                        <a href="{{product.donwloadLink}}">Download Free Tool</a> 
+                                                    </li>
+                                                </ul>
+                                                <!-- ends d_options -->
+                                            </div>
+                                            <!-- ends d_categories -->
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- ends d_category -->
+							</div>
                         </div>
                         <!-- ends d_productByCategorie -->
                     </li>

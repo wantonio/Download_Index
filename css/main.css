@@ -179,7 +179,7 @@ strong {
     margin-top:9px;
 }
 .d_searchBarBox {
-    background: #eee;
+    background: #fafafa;
     border-top: 1px #bbb solid;
 }
 .d_searchBar {
@@ -205,9 +205,18 @@ strong {
 /*------------------------------------------------ Category section ------------------------------------------------*/
 .d_categoryTitle {
     height:40px;
-    margin-bottom: 15px;
-    background:#bbb;
+    margin: 15px 0;
 }
+.d_categoryTitle p {
+    font: normal 400 21px 'OpenSansRegular', sans-serif;
+    width: 1024px;
+    margin:0 auto;
+}
+.cat-nm  p{color:#faba23}
+.cat-sm  p{color:#86cc17}
+.cat-lem  p{color:#359ac0}
+.cat-dp  p{color:#45d7cb}
+
 .d_productsBySearch {
     background: #ddd;
     background: -moz-linear-gradient(top, #eee 0, #ddd 100%);
@@ -219,6 +228,7 @@ strong {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#eee', endColorstr='#ddd', GradientType=0);
 }
 .NPM_category {
+	overflow:hidden;
     background: #f9f6ee;
     background: -moz-linear-gradient(top, #fef1d3 0, #f9f6ee 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fef1d3), color-stop(100%, #f9f6ee));
@@ -229,6 +239,7 @@ strong {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fef1d3', endColorstr='#f9f6ee', GradientType=0);
 }
 .SAM_category {
+	overflow:hidden;
     background: #f3f7ed;
     background: -moz-linear-gradient(top, #e2eec3 0, #f3f7ed 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e2eec3), color-stop(100%, #f3f7ed));
@@ -239,6 +250,7 @@ strong {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e2eec3', endColorstr='#f3f4e3', GradientType=0);
 }
 .LEM_category {
+	overflow:hidden;
     background: #eef5f6;
     background: -moz-linear-gradient(top, #c6e5eb 0, #eef5f6 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c6e5eb), color-stop(100%, #eef5f6));
@@ -249,6 +261,7 @@ strong {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#c6e5eb', endColorstr='#eef5f6', GradientType=0);
 }
 .DP_category {
+	overflow:hidden;
     background: #f0f7f7;
     background: -moz-linear-gradient(top, #d0f1e6 0, #f0f7f7 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d0f1e6), color-stop(100%, #f0f7f7));
@@ -258,24 +271,8 @@ strong {
     background: linear-gradient(to bottom, #d0f1e6 0, #f0f7f7 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#d0f1e6', endColorstr='#f0f7f7', GradientType=0);
 }
-.NPM_category .d_categoryTitle {
-    background-color: #faba23;
-}
-.SAM_category .d_categoryTitle {
-    background-color: #86cc17;
-}
-.LEM_category .d_categoryTitle {
-    background-color: #359ac0;
-}
-.DP_category .d_categoryTitle {
-    background-color: #45d7cb;
-}
-.d_categoryTitle p {
-    font: normal 400 16px/18px'OpenSansRegular', sans-serif;
-    color:white;
-    width: 1024px;
-    margin:0 auto;
-}
+
+
 /*------------------------------------------------ Categories ------------------------------------------------*/
 .d_categories {
     padding:12px;
