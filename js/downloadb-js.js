@@ -691,6 +691,372 @@ function downloadListCtrl($scope) {
             tags: "Database Performance, Sybase Performance, Sybase Performance Tuning, SQL Performance, Sybase  Monitoring, Sybase Monitor, SQL Optimization, Sybase ASE Performance, Ignite"
         }
         /*-----end of product-------*/
+		/*   FREE TOOLS SECTION  */
+{
+code:"TFPT",
+category: "FreeTool",
+sub-category:"NM",
+name:"TFTP Server & SFTP/SCP Server",
+subTitle:"Transfer Executable Images & Configs with Ease",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=52&c=70150000000CcH2",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0019_FT-TFTP_Server_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"IPAT",
+category: "FreeTool",
+sub-category:"NM",
+name:"IP Address Tracker",
+subTitle:"Scans, Tracks, & Consolidates IP Address Information",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=912&c=70150000000Ehqn",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0013_FT-IP-Address-Tracker_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"RTBM",
+category: "FreeTool",
+sub-category:"NM",
+name:"Real-Time Bandwidth Monitor",
+subTitle:"Monitors Bandwidth Usage in Real-time",
+icon:"icon-freetool.png"
+donwloadLink:"/register/registrationb.aspx?program=1643&c=70150000000PDzJ",
+imageLink:"http://web.swcdn.net/v7.4/creative/images/screenshots/freeTools/0020_FT-Real-Time-Bandwidth-Monitor_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"RTNA",
+category: "FreeTool",
+sub-category:"NM",
+name:"Real-time NetFlow Analyzer",
+subTitle:"Analyzes Network Traffic",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=852&c=70150000000DrSQ",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0015_FT-Real-time-NetFlow-Analyzer_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"NDM",
+category: "FreeTool",
+sub-category:"NM",
+name:"Network Device Monitor",
+subTitle:"Monitors Any Statistic on Any Network Device",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=991&c=70150000000OaIF",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0011_FT-Network-Device-Monitor_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"CDRT",
+category: "FreeTool",
+sub-category:"NM",
+name:"Call Detail Record Tracker",
+subTitle:"Monitor VoIP Call Performance",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=17167&c=70150000000PWpP",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0028_FT-Call-Detail-Record-Tracker_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"NCG",
+category: "FreeTool",
+sub-category:"NM",
+name:"Network Config Generator",
+subTitle:"Quickly Configures Network Devices",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=968&c=70150000000FRws",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0012_FT-Network-Config-Generator_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"IPSLA",
+category: "FreeTool",
+sub-category:"NM",
+name:"IP SLA Monitor",
+subTitle:"Harness Cisco IP SLA to Analyze Performance Between Sites",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=896&c=70150000000EQ0I",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0017_FT-IP-SLA-Monitor_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"SC",
+category: "FreeTool",
+sub-category:"NM",
+name:"Subnet Calculator",
+subTitle:"Four Free IP Management Tools in One Download",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=92&c=70150000000CcHV",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0014_FT-Subnet-Calculator_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"WOL",
+category: "FreeTool",
+sub-category:"NM",
+name:"Wake-on-LAN",
+subTitle:"Remotely Power Up PCs",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=214&c=70150000000CcH1",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0018_FT-Wake-on-LAN_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"NFC",
+category: "FreeTool",
+name:"NetFlow Configurator",
+sub-category:"NM",
+subTitle:"Monitors Inbound & Outbound Traffic Data",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=523&c=70150000000DGod",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0016_FT-NetFlow-Configurator_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"FMM",
+category: "FreeTool",
+sub-category:"NM",
+name:"Free Mobile Monitor for SolarWinds NPM or SAM",
+subTitle:"Manage NPM or SAM, plus access SSH, telnet, and RDP from your mobile device",
+icon:"icon-freetool.png"
+donwloadLink:"http://downloads.solarwinds.com/solarwinds/Release/FreeTool/ZP1/ZP-FMM-Info/ZP-FMM-INFO-DI.html",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/products/MM/Sm/En/0001_FT-Mobile-Monitor_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"AC",
+category: "FreeTool",
+sub-category:"NM",
+name:"Alert Central",
+subTitle:"FREE Alert Management, Escalation, and On-Call Scheduling",
+icon:"icon-freetool.png"
+donwloadLink:"/alertcentral/alertcentraldownload.aspx",
+imageLink:"http://web.swcdn.net/creative/images/screenshots/freeTools/0030_FT-Alert-Central_sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"FB",
+category: "FreeTool",
+sub-category:"NM",
+name:"Firewall Browser",
+subTitle:"Simplify Firewall Rule Change Requests and Troubleshooting",
+icon:"icon-freetool.png"
+donwloadLink:"/alertcentral/alertcentraldownload.aspx",
+imageLink:"http://web.swcdn.net/creative/images/screenshots/freeTools/0030_FT-Alert-Central_sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"FTP",
+category: "FreeTool",
+sub-category:"NM",
+name:"FTP Voyager Free FTP Client for Windows®",
+subTitle:"Secure file transfer, which includes automation, scheduling, and sync utilities",
+icon:"icon-freetool.png"
+donwloadLink:"http://www.serv-u.com/ftpvoyager/free-download.asp",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/products/Free-tools/FTP-Voyager/downloadindex.jpg",
+},
+/*end of freetool*/
+{
+code:"IUAT",
+category: "FreeTool",
+sub-category:"SM",
+name:"Inactive User Account Removal Tool",
+subTitle:"Scan Active Directory & Easily Remove Users",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=1800&c=70150000000PH8s",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0007_FT-Inactive-User-Account-Removal-Tool_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"ICART",
+category: "FreeTool",
+sub-category:"SM",
+name:"Inactive Computer Account Removal Tool",
+subTitle:"Scan Active Directory & Easily Remove Computers",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=1800&c=70150000000PH8s",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0008_FT-Inactive-Computer-Account-Removal-Tool_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"UIT",
+category: "FreeTool",
+sub-category:"SM",
+name:"User Import Tool",
+subTitle:"Quickly Create Users in Bulk & Specify Attributes",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=1800&c=70150000000PH8s",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0009_FT-User-Import-Tool_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"DTWA",
+category: "FreeTool",
+sub-category:"SM",
+name:"Diagnostic Tool for the WSUS Agent",
+subTitle:"Easily check configuration files and associated values and test WSUS resource connections",
+icon:"icon-freetool.png"
+donwloadLink:"http://downloads.solarwinds.com/solarwinds/Release/FreeTool/ZP1/WSUS-ZP-PM3/WSUS-MoreMoreSoftware.html",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0001_FT-WSUS-Agent_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"WTW",
+category: "FreeTool",
+sub-category:"SM",
+name:"Web Transaction Watcher",
+subTitle:"Records and Monitors any Multi-step Web Transaction",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=1579&c=70150000000PBhD",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0002_FT-Web-Transaction-Watcher_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"WMI",
+category: "FreeTool",
+sub-category:"SM",
+name:"WMI Monitor",
+subTitle:"Monitors Windows Applications & Servers",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=937&c=70150000000Ezdb",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0006_FT-WMI-Monitor_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"PAAD",
+category: "FreeTool",
+sub-category:"SM",
+name:"Permissions Analyzer for Active Directory",
+subTitle:"Delivers Visibility Into Effective Permissions",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=1323&c=70150000000OzCs",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0005_FT-Permissions-Analyzer-for-Active-Directory_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"EM",
+category: "FreeTool",
+sub-category:"SM",
+name:"Exchange Monitor",
+subTitle:"Monitors Exchange Server's Health in Real Time",
+donwloadLink:"/register/index.aspx?Program=825&c=70150000000Djc6",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0010_FT-Exchange-Monitor_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"RTAA",
+category: "FreeTool",
+sub-category:"SM",
+name:"Real-Time AppFlow Analyzer",
+subTitle:"Shows What Types of Traffic Are on Your Network",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=1421&c=70150000000Mq6X",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0003_FT-Real-Time-AppFlow-Analyzer_Sm_EN.jpg",
+},
+
+/*end of freetool*/
+
+{
+code:"SNMP",
+category: "FreeTool",
+sub-category:"SM",
+name:"SNMP Enabler for Windows",
+subTitle:"Remotely Installs, Enables, & Configures SNMP on Multiple Windows Machines",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=1382&c=70150000000P2cK",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0004_FT-SNMP-Enabler-for-Windows_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"KSS",
+category: "FreeTool",
+sub-category:"SM",
+name:"Kiwi Syslog Server",
+subTitle:"Collect, view and archive syslog messages and SNMP traps",
+icon:"icon-freetool.png"
+icon:"icon-freetool.png"
+donwloadLink:"http://www.kiwisyslog.com/free-edition.aspx?productType=ks&AppID=876&CampaignID=70150000000Es8J",
+imageLink:"http://web.swcdn.net/creative/images/products/Free-tools/kiwi-syslog/free-tool-thumb.png",
+},
+/*end of freetool*/
+{
+code:"VMM",
+category: "FreeTool",
+sub-category:"NC",
+name:"VM Monitor",
+subTitle:"Monitors the Performance of VMware & Hyper-V Hosts",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=864&c=70150000000E3pU",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0025_FT-VM-Monitor_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"VMCC",
+category: "FreeTool",
+sub-category:"NC",
+name:"VM-to-Cloud Calculator",
+subTitle:"Discovers Virtual Machines & Estimates the Cost to Move to the Cloud",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=1521&c=70150000000PANv",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0023_FT-VM-to-Cloud-Calculator_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"VMC",
+category: "FreeTool",
+sub-category:"NC",
+name:"VM Console",
+subTitle:"Bounces VMs & Tracks Their Status from Your Desktop",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=1320&c=70150000000OzCi",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0024_FT-VM-Console_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"CPMPC",
+category: "FreeTool",
+sub-category:"NC",
+name:"Cloud Performance Monitor Powered by CopperEgg",
+subTitle:"Monitor Cloud-based Servers with Ease",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=12119&c=70150000000PUtx",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0027_FT-Cloud-Performance-Monitor_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"SRTM",
+category: "FreeTool",
+sub-category:"NC",
+name:"Storage Response Time Monitor",
+subTitle:"Identifies VMs With High Storage Latency",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=1645&c=70150000000PEMX",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0022_FT-Storage-Response-Time-Monitor_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"SANM",
+category: "FreeTool",
+name:"SAN Monitor",
+sub-category:"NC",
+subTitle:"Monitors Your Storage Array",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=997&c=70150000000OhZs",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0021_FT-SAN-Monitor_Sm_EN.jpg",
+},
+/*end of freetool*/
+{
+code:"ELC",
+category: "FreeTool",
+sub-category:"LEM",
+name:"Event Log Consolidator",
+subTitle:"Consolidates Event Logs from up to 5 Servers",
+icon:"icon-freetool.png"
+donwloadLink:"/register/index.aspx?Program=1857&c=70150000000PIFp",
+imageLink:"http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0026_FT-Event-Log-Consolidator_Sm_EN.jpg",
+}
+/*end of freetool*/
     ];
 	
 	//Category Selection Default
