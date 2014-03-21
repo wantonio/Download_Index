@@ -73,13 +73,13 @@
                         <!-- Starts New Category -->
                         <div class="d_categoryOrange" ng-if="selectCategory=='all' || selectCategory=='NM'">
                             <div class="d_categoryTitle cat-nm">
-                                <p>Network Managment</p>
+                                <p>My Network Performance</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-nm -->
                             <div class="d_category">
                                 <ul>
-                                    <li ng-repeat="product in productCat  | filter:{category:'NM'}">
-                                        <div class="d_categories {{product.category}}">
+                                    <li  ng-repeat="product in productCat  | filter:{category:'NM'}">
+                                        <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
                                                 <li class="d_features">
@@ -104,13 +104,13 @@
                         <!-- Starts New Category -->
                         <div class="d_categoryGreen" ng-if="selectCategory=='all' || selectCategory=='SM'">
                             <div class="d_categoryTitle cat-sm">
-                                <p>Server &amp; Aplication Manager</p>
+                                <p>My Apps &amp; Systems</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-sm -->
-                            <div class="d_category">
+                            <div class="d_category" >
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{category:'SM'}">
-                                        <div class="d_categories {{product.category}}">
+                                        <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
                                                 <li class="d_features">
@@ -133,14 +133,14 @@
                         </div>
                         <!-- Ends d_categoryGreen -->
                         <!-- Starts New Category -->
-                        <div class="d_categoryAqua" ng-if="selectCategory=='all' || selectCategory=='LEM'">
+                        <div class="d_categoryBlue" ng-if="selectCategory=='all' || selectCategory=='LEM'">
                             <div class="d_categoryTitle cat-lem">
-                                <p>Log &amp; event Manager</p>
+                                <p>My Security &amp; Compliance</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-lem -->
                             <div class="d_category">
                                 <ul>
-                                    <li ng-repeat="product in productCat | filter:{category:'LEM'}">
+                                    <li ng-repeat="product in productCat | filter:{category:'LEM'}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
                                         <div class="d_categories {{product.category}}">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
@@ -164,15 +164,15 @@
                         </div>
                         <!-- Ends d_categoryAqua -->
                         <!-- Starts New Category -->
-                        <div class="d_categoryBlue" ng-if="selectCategory=='all' || selectCategory=='DP'">
+                        <div class="d_categoryAqua" ng-if="selectCategory=='all' || selectCategory=='DP'">
                             <div class="d_categoryTitle cat-dp">
-                                <p>Database Management</p>
+                                <p>My Database Performance</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-dp -->
                             <div class="d_category">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{category:'DP'}">
-                                        <div class="d_categories {{product.category}}">
+                                        <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
                                                 <li class="d_features">
@@ -204,13 +204,13 @@
                         <!-- Starts New Category -->
                         <div class="d_categoryOrange" ng-if="selectCategory=='all' || selectCategory=='FT'">
                             <div class="d_categoryTitle cat-nm">
-                                <p>Network Management Free Tools</p>
+                                <p>My Network Performance Free Tools</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-nm -->
                             <div class="d_category">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{subcategory:'NM'}">
-                                        <div class="d_categories {{product.subcategory}}">
+                                        <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
                                                 <li class="d_features">
@@ -232,13 +232,13 @@
                         <!-- Starts New Category -->
                         <div class="d_categoryGreen" ng-if="selectCategory=='all' || selectCategory=='FT'">
                             <div class="d_categoryTitle cat-sm">
-                                <p>Server & Aplication Manager Free Tools</p>
+                                <p>My Apps &amp; Systems Free Tools</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-sm -->
                             <div class="d_category">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{subcategory:'SM'}">
-                                        <div class="d_categories {{product.subcategory}}">
+                                        <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
                                                 <li class="d_features">
@@ -258,15 +258,15 @@
                         </div>
                         <!-- Ends d_categoryGreen -->
                         <!-- Starts New Category -->
-                        <div class="d_categoryAqua" ng-if="selectCategory=='all' || selectCategory=='FT'">
+                        <div class="d_categoryBlue" ng-if="selectCategory=='all' || selectCategory=='FT'">
                             <div class="d_categoryTitle cat-lem">
-                                <p>Log & event Manager Free Tools</p>
+                                <p>My Security &amp; Compliance Free Tools</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-lem -->
                             <div class="d_category">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{subcategory:'LEM'}">
-                                        <div class="d_categories {{product.subcategory}}">
+                                        <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
                                                 <li class="d_features">
@@ -286,15 +286,15 @@
                         </div>
                         <!-- Ends d_categoryAqua -->
                         <!-- Starts New Category -->
-                        <div class="d_categoryBlue" ng-if="selectCategory=='all' || selectCategory=='FT'">
+                        <div class="d_categoryAqua" ng-if="selectCategory=='all' || selectCategory=='FT'">
                             <div class="d_categoryTitle cat-dp">
-                                <p>Database Management Free Tools</p>
+                                <p>My Database Performance Free Tools</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-dp -->
                             <div class="d_category">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{subcategory:'DP'}">
-                                        <div class="d_categories {{product.subcategory}}">
+                                        <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
                                                 <li class="d_features">
@@ -336,7 +336,7 @@
                         <div class="d_category">
                             <ul>
                                 <li ng-repeat="product in productCat | filter:{ tags: productSearchInput }">
-                                    <div class="d_categories {{product.category}}">
+                                    <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
                                         <p>{{product.name}}</p>
                                         <ul class="d_options">
                                             <li class="d_features">
