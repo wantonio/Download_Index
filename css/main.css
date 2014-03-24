@@ -207,11 +207,11 @@
 }
 
 .d_searchBar select{
-	border: none;
-background: #d8d8d8;
-font: 400 18px'OpenSansRegular',sans-serif;
-color: #000;
-padding: 3px 5px;
+	background: #efefef;
+	font: 400 18px'OpenSansRegular',sans-serif;
+	color: #000;
+	padding: 3px 5px;
+	border: 1px solid #ddd;
 }
 /*------------------------------------------------ Category section ------------------------------------------------*/
  .d_categoryTitle {
