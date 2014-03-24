@@ -339,6 +339,7 @@ padding: 3px 5px;
 	width: 31.33%;
 	margin: 1%;
 	background-color: #ffffff !important;
+	min-height:136px;
 }
 .d_category>ul>li p {
     font-weight: bold;
