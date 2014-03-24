@@ -23,19 +23,70 @@
                     To Get You Started
                 </h1>
                 <ul class="d_quadrant">
-                    <li class="{{product.category}}" ng-repeat="product in productCat | filter:{ featured: 'yes' }">
+                    <li class="NM">
                         <div class="d_background"></div>
-                        <h2>{{product.name}}</h2>
+                        <h2>Network Performance Monitor</h2>
                         <div class="screenshot">
-                            <img src="{{product.imageLink}}" alt="{{product.name}}" />
+                            <img src="http://web.swcdn.net/v7.0/creative/images/screenshots/products/NPM/Sm/En/0004_NPM_10-2_ConnectNow-Network-Mapping_Sm_EN.jpg" alt="Network Performance Monitor">
                         </div>
-                        <p>{{product.subTitle}}</p>
+                        <p>Powerful Network Fault & Availability Management</p>
+                    </li>
+					<li class="SM">
+                        <div class="d_background"></div>
+                        <h2>Server & Application Monitor</h2>
+                        <div class="screenshot">
+                            <img src="http://web.swcdn.net/v7.1/creative/images/screenshots/products/SAM/Sm/En/0019_SAM_5-0_Extensible-Monitoring-for-Custom-Applications-and-Scripts_Sm_EN.jpg" alt="Server &amp; Application Monitor">
+                        </div>
+                        <p>Server Monitoring Made Simple – Deploy, Monitor & Resolve</p>
+                    </li>
+					<li class="LEM">
+                        <div class="d_background"></div>
+                        <h2>Log & Event Manager</h2>
+                        <div class="screenshot">
+                            <img src="http://web.swcdn.net/v7.1/creative/images/screenshots/products/LEM/Sm/En/0003_LEM_5-4_Cutting-Edge-IT-Search-for-Event-Forensic-Analysis_Sm_EN.jpg" alt="Log &amp; Event Manager">
+                        </div>
+                        <p>Log Management - Collection, Analysis, and Real-Time Event Correlation</p>
+                    </li>
+					<li class="DP">
+                        <div class="d_background"></div>
+                        <h2>Database Performance Analyzer</h2>
+                        <div class="screenshot">
+                            <img src="http://web.swcdn.net/creative/images/screenshots/products/DPA/Sm/En/Ignite-for-SQL-1_sm.jpg" alt="Database Performance Analyzer for SQL Server®">
+                        </div>
+                        <p>Easy to use, easy to install performance analyzer for SQL Server, Oracle, Sybase and DB2.</p>
                     </li>
                 </ul>
                 <!-- Ends d_quadrant -->
                 <ul class="d_quadrant d_buttons">
-                    <li ng-repeat="product in productCat | filter:{ featured: 'yes' }">
-                        <a href="{{product.donwloadLink}}" class="d_btn d_green">
+                    <li>
+                        <a href="/register/index.aspx?Program=607&c=70150000000Dlbw" class="d_btn d_green">
+                            <div class="d_textWrap">
+                                <span class="d_download">DOWNLOAD FREE TRIAL</span>
+                                <span class="d_fully">Fully Functional for 30 days</span>
+                            </div>
+                            <!-- Ends d_textWrap -->
+                        </a>
+                    </li>
+					<li>
+                        <a href="/register/index.aspx?Program=857&c=70150000000Dtb9" class="d_btn d_green">
+                            <div class="d_textWrap">
+                                <span class="d_download">DOWNLOAD FREE TRIAL</span>
+                                <span class="d_fully">Fully Functional for 30 days</span>
+                            </div>
+                            <!-- Ends d_textWrap -->
+                        </a>
+                    </li>
+					<li>
+                        <a href="/register/index.aspx?Program=1520&c=70150000000PExs" class="d_btn d_green">
+                            <div class="d_textWrap">
+                                <span class="d_download">DOWNLOAD FREE TRIAL</span>
+                                <span class="d_fully">Fully Functional for 30 days</span>
+                            </div>
+                            <!-- Ends d_textWrap -->
+                        </a>
+                    </li>
+					<li>
+                        <a href="/register/registrationb.aspx?Program=18512&c=70150000000RdaM" class="d_btn d_green">
                             <div class="d_textWrap">
                                 <span class="d_download">DOWNLOAD FREE TRIAL</span>
                                 <span class="d_fully">Fully Functional for 30 days</span>
@@ -59,9 +110,9 @@
                             <select class="searchCategory" ng-model="selectCategory">
                                 <option value="all">All Categories</option>
                                 <option value="NM">Network Management</option>
-                                <option value="SM">Apps &amp; Systems</option>
-                                <option value="LEM">Security &amp; Compliance</option>
-                                <option value="DP">Database &amp; Performance</option>
+                                <option value="SM">Server &amp; Application Management</option>
+                                <option value="LEM">Security Information &amp; Event Management</option>
+                                <option value="DP">Database Performance</option>
                                 <option value="FT">Free Tools</option>
                             </select>
                             <!-- Ends searchCategory -->
@@ -73,13 +124,13 @@
                         <!-- Starts New Category -->
                         <div class="d_categoryOrange" ng-if="selectCategory=='all' || selectCategory=='NM'">
                             <div class="d_categoryTitle cat-nm">
-                                <p>My Network Performance</p>
+                                <p>Network Performance Software</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-nm -->
                             <div class="d_category">
                                 <ul>
                                     <li  ng-repeat="product in productCat  | filter:{category:'NM'}">
-                                        <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
+                                        <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
                                                 <li class="d_features">
@@ -104,13 +155,13 @@
                         <!-- Starts New Category -->
                         <div class="d_categoryGreen" ng-if="selectCategory=='all' || selectCategory=='SM'">
                             <div class="d_categoryTitle cat-sm">
-                                <p>My Apps &amp; Systems</p>
+                                <p> Server & Application Management Software</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-sm -->
                             <div class="d_category" >
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{category:'SM'}">
-                                        <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
+                                        <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
                                                 <li class="d_features">
@@ -135,12 +186,12 @@
                         <!-- Starts New Category -->
                         <div class="d_categoryBlue" ng-if="selectCategory=='all' || selectCategory=='LEM'">
                             <div class="d_categoryTitle cat-lem">
-                                <p>My Security &amp; Compliance</p>
+                                <p>Security Information & Event Management Software</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-lem -->
                             <div class="d_category">
                                 <ul>
-                                    <li ng-repeat="product in productCat | filter:{category:'LEM'}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
+                                    <li ng-repeat="product in productCat | filter:{category:'LEM'}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
                                         <div class="d_categories {{product.category}}">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
@@ -166,13 +217,13 @@
                         <!-- Starts New Category -->
                         <div class="d_categoryAqua" ng-if="selectCategory=='all' || selectCategory=='DP'">
                             <div class="d_categoryTitle cat-dp">
-                                <p>My Database Performance</p>
+                                <p>Database Performance Software</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-dp -->
                             <div class="d_category">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{category:'DP'}">
-                                        <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
+                                        <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
                                                 <li class="d_features">
@@ -204,13 +255,13 @@
                         <!-- Starts New Category -->
                         <div class="d_categoryOrange" ng-if="selectCategory=='all' || selectCategory=='FT'">
                             <div class="d_categoryTitle cat-nm">
-                                <p>My Network Performance Free Tools</p>
+                                <p>Network Performance Free Tools</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-nm -->
                             <div class="d_category">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{subcategory:'NM'}">
-                                        <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
+                                        <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
                                                 <li class="d_features">
@@ -232,13 +283,13 @@
                         <!-- Starts New Category -->
                         <div class="d_categoryGreen" ng-if="selectCategory=='all' || selectCategory=='FT'">
                             <div class="d_categoryTitle cat-sm">
-                                <p>My Apps &amp; Systems Free Tools</p>
+                                <p>Server & Application Management Free Tools</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-sm -->
                             <div class="d_category">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{subcategory:'SM'}">
-                                        <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
+                                        <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
                                                 <li class="d_features">
@@ -260,13 +311,13 @@
                         <!-- Starts New Category -->
                         <div class="d_categoryBlue" ng-if="selectCategory=='all' || selectCategory=='FT'">
                             <div class="d_categoryTitle cat-lem">
-                                <p>My Security &amp; Compliance Free Tools</p>
+                                <p>Security Information & Event Management Free Tools</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-lem -->
                             <div class="d_category">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{subcategory:'LEM'}">
-                                        <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
+                                        <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
                                                 <li class="d_features">
@@ -288,13 +339,13 @@
                         <!-- Starts New Category -->
                         <div class="d_categoryAqua" ng-if="selectCategory=='all' || selectCategory=='FT'">
                             <div class="d_categoryTitle cat-dp">
-                                <p>My Database Performance Free Tools</p>
+                                <p>Database Performance Free Tools</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-dp -->
                             <div class="d_category">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{subcategory:'DP'}">
-                                        <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
+                                        <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
                                             <p>{{product.name}}</p>
                                             <ul class="d_options">
                                                 <li class="d_features">
@@ -328,7 +379,7 @@
                         <!-- Ends d_searchBar d_content_center -->
                     </div>
                     <!-- Ends d_searchBarBox -->
-                    <div class="d_productsBySearch" ng-show="productSearchInput">
+                    <div class="d_productsBySearch">
                         <div class="d_categoryTitle">
                             <p>Results for: "{{productSearchInput}}"</p>
                         </div>
@@ -336,7 +387,7 @@
                         <div class="d_category">
                             <ul>
                                 <li ng-repeat="product in productCat | filter:{ tags: productSearchInput }">
-                                    <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 105% 85%;background-size:85px">
+                                    <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
                                         <p>{{product.name}}</p>
                                         <ul class="d_options">
                                             <li class="d_features">

@@ -84,7 +84,7 @@
     float: left;
     width: 22.25%;
     height: 100%;
-    padding: 1%;
+    padding: 1% 1% 0 1%;
     text-align: center;
 }
 .d_quadrant>li .d_background {
@@ -108,7 +108,7 @@
 	background-color: #46d8cb;
 }
 .d_quadrant li h2 {
-    min-height: 38px;
+    min-height: 25px;
     font: 700 14px'OpenSansBold', sans-serif;
     color: #000000;
     color: rgba(0, 0, 0, 0.5);
@@ -243,6 +243,8 @@ padding: 3px 5px;
     margin: 15px 0;
 }
 .d_productsBySearch {
+	overflow:hidden;
+	padding-bottom: 17px;
     background: #ddd;
     background: -moz-linear-gradient(top, #eee 0, #ddd 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eee), color-stop(100%, #ddd));
@@ -255,6 +257,7 @@ padding: 3px 5px;
 
 .d_categoryOrange {
     overflow:hidden;
+	padding-bottom: 17px;
     background: url(../img/flames-orange.png) #f9f6ee left center no-repeat;
     background: url(../img/flames-orange.png) left center no-repeat, -moz-linear-gradient(top, #fef1d3 0, #f9f6ee 100%);
     background: url(../img/flames-orange.png) left center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fef1d3), color-stop(100%, #f9f6ee));
@@ -266,6 +269,7 @@ padding: 3px 5px;
 }
 .d_categoryGreen {
     overflow:hidden;
+	padding-bottom: 17px;
     background: url(../img/flames-green.png) #f3f7ed left center no-repeat;
     background: url(../img/flames-green.png) left center no-repeat, -moz-linear-gradient(top, #e2eec3 0, #f3f7ed 100%);
     background: url(../img/flames-green.png) left center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e2eec3), color-stop(100%, #f3f7ed));
@@ -277,6 +281,7 @@ padding: 3px 5px;
 }
 .d_categoryAqua {
 	overflow:hidden;
+	padding-bottom: 17px;
     background: url(../img/flames-aqua.png) #f0f7f7 left center no-repeat;
     background: url(../img/flames-aqua.png) left center no-repeat, -moz-linear-gradient(top, #d0f1e6 0, #f0f7f7 100%);
     background: url(../img/flames-aqua.png) left center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d0f1e6), color-stop(100%, #f0f7f7));
@@ -288,6 +293,7 @@ padding: 3px 5px;
 }
 .d_categoryBlue {
    overflow:hidden;
+   padding-bottom: 17px;
     background: url(../img/flames-blue.png) #eef5f6 left center no-repeat;
     background: url(../img/flames-blue.png) left center no-repeat, -moz-linear-gradient(top, #c6e5eb 0, #eef5f6 100%);
     background: url(../img/flames-blue.png) left center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c6e5eb), color-stop(100%, #eef5f6));
@@ -301,7 +307,6 @@ padding: 3px 5px;
  .d_categories {
     padding:12px;
     border-top: solid 10px #faba23;
-	background-size: 85px;
 	
 }
 .NM.d_categories {
