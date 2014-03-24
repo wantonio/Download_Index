@@ -374,13 +374,13 @@
                         <div class="d_searchBar d_content_center">
                             <p>Search Products</p>
                             <input type="text" class="searchText" ng-model="productSearchInput">
-                            <a class="btnSearch" href="#">Clear</a>
+                            <button type="reset" class="btnSearch"  value="" ng-click="productSearchInput=''">Clear</button>
                         </div>
                         <!-- Ends d_searchBar d_content_center -->
                     </div>
                     <!-- Ends d_searchBarBox -->
                     <div class="d_productsBySearch">
-                        <div class="d_categoryTitle">
+                        <div class="d_categoryTitle" ng-show="productSearchInput">
                             <p>Results for: "{{productSearchInput}}"</p>
                         </div>
                         <!-- Ends class="d_categoryTitle" -->

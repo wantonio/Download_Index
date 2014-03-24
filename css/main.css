@@ -172,11 +172,13 @@
 }
 /*------------------------------------------------ Search section ------------------------------------------------*/
  .btnSearch {
-    display:block;
-    height: 18px;
-    width:22px;
-    float:left;
-    margin-top:9px;
+	display: block;
+	margin: 9px 5px 0 0;
+	border: none;
+	padding: 1px 7px;
+	margin-top: 9px;
+	font: 200 14px 'OpenSansBold', sans-serif;
+	color: #666
 }
 .d_searchBarBox {
     background: #fafafa;
@@ -244,7 +246,7 @@ padding: 3px 5px;
 }
 .d_productsBySearch {
 	overflow:hidden;
-	padding-bottom: 17px;
+	padding: 17px 0;
     background: #ddd;
     background: -moz-linear-gradient(top, #eee 0, #ddd 100%);
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eee), color-stop(100%, #ddd));
@@ -307,8 +309,10 @@ padding: 3px 5px;
  .d_categories {
     padding:12px;
     border-top: solid 10px #faba23;
-	
+	min-height:112px;
 }
+
+
 .NM.d_categories {
     border-top: solid 10px #faba23;
 }

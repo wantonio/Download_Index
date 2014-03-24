@@ -6,6 +6,7 @@ function downloadListCtrl($scope) {
             name: "Network Performance Monitor",
             subTitle: "Powerful Network Fault & Availability Management",
             icon: "icon-npmBk.png",
+            iconhover: "icon-npmOr.png",
             bullets: ["Simplifies detection, diagnosis, & resolution of network issues – before outages occur", "Tracks response time, availability, & uptime of routers, switches, & other SNMP-enabled devices", "Shows performance statistics in real time via dynamic, drillable network maps", " Includes out-of-the-box dashboards, alerts, reports, & expert guidance on what to monitor & how", "Automatically discovers SNMP-enabled network devices & typically deploys in less than an hour"],
             donwloadLink: "/register/index.aspx?Program=607&c=70150000000Dlbw",
             demolink: "http://oriondemo.solarwinds.com/Orion/SummaryView.aspx?ViewKey=NPM%20Summary&AccountID=guest&password=orion",
