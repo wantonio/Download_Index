@@ -260,7 +260,6 @@
 
 .d_categoryOrange {
     overflow:hidden;
-	padding-bottom: 17px;
     background: url(../img/flames-orange.png) #f9f6ee left center no-repeat;
     background: url(../img/flames-orange.png) left center no-repeat, -moz-linear-gradient(top, #fef1d3 0, #f9f6ee 100%);
     background: url(../img/flames-orange.png) left center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fef1d3), color-stop(100%, #f9f6ee));
@@ -310,7 +309,6 @@
 
 .d_categoryGreen {
     overflow:hidden;
-	padding-bottom: 17px;
     background: url(../img/flames-green.png) #f3f7ed left center no-repeat;
     background: url(../img/flames-green.png) left center no-repeat, -moz-linear-gradient(top, #e2eec3 0, #f3f7ed 100%);
     background: url(../img/flames-green.png) left center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e2eec3), color-stop(100%, #f3f7ed));
@@ -322,7 +320,6 @@
 }
 .d_categoryAqua {
 	overflow:hidden;
-	padding-bottom: 17px;
     background: url(../img/flames-aqua.png) #f0f7f7 left center no-repeat;
     background: url(../img/flames-aqua.png) left center no-repeat, -moz-linear-gradient(top, #d0f1e6 0, #f0f7f7 100%);
     background: url(../img/flames-aqua.png) left center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d0f1e6), color-stop(100%, #f0f7f7));
@@ -334,7 +331,6 @@
 }
 .d_categoryBlue {
    overflow:hidden;
-   padding-bottom: 17px;
     background: url(../img/flames-blue.png) #eef5f6 left center no-repeat;
     background: url(../img/flames-blue.png) left center no-repeat, -moz-linear-gradient(top, #c6e5eb 0, #eef5f6 100%);
     background: url(../img/flames-blue.png) left center no-repeat, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #c6e5eb), color-stop(100%, #eef5f6));
@@ -381,7 +377,7 @@
 /*------------------------------------------------ Single Category ------------------------------------------------*/
  .d_category {
     overflow: hidden;
-    padding-bottom:20px;
+    padding-bottom:40px;
 }
 .d_category>ul {
     overflow: hidden;
