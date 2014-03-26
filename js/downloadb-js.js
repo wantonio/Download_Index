@@ -1065,7 +1065,7 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
 }); //end of app
 
 
-//Tabs Function
+//Tabs Function jquery
 $(function() {
     $("ul.d_tabs > li").click(function() {
         $("ul.d_tabs > li").removeClass("d_selected");
