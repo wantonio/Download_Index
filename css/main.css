@@ -270,6 +270,29 @@
     background: url(../img/flames-orange.png) left center no-repeat, linear-gradient(to bottom, #fef1d3 0, #f9f6ee 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fef1d3', endColorstr='#f9f6ee', GradientType=0);
 }
+
+
+
+
+
+
+.d_categoryOrange-show-setup, .d_categoryOrange-hide-setup {
+  -webkit-transition:all linear 0.3s;
+  -moz-transition:all linear 0.3s;
+  -ms-transition:all linear 0.3s;
+  -o-transition:all linear 0.3s;
+  transition:all linear 0.3s;
+}
+
+.d_categoryOrange-show-setup { opacity:0 }
+.d_categoryOrange-show-setup.d_categoryOrange-show-start { opacity:1 }
+
+.d_categoryOrange-hide-setup { opacity:1}
+.d_categoryOrange-hide-setup.d_categoryOrange-hide-start { opacity:0 }
+
+
+
+
 .d_categoryGreen {
     overflow:hidden;
 	padding-bottom: 17px;
