@@ -276,21 +276,24 @@
 
 
 
-.d_categoryOrange.ng-hide, .d_categoryOrange.ng-hide-remove {
+.d_categoryAnimate.ng-hide, .d_categoryAnimate.ng-hide-remove {
   -webkit-transition:all linear 0.5s;
   -moz-transition:all linear 0.5s;
   -o-transition:all linear 0.5s;
   transition:all linear 0.5s;
 }
+
  
-.d_categoryOrange.ng-hide-add.ng-hide-add-active,
-.d_categoryOrange.ng-hide-remove {
+.d_categoryAnimate.ng-hide-add.ng-hide-add-active,
+.d_categoryAnimate.ng-hide-remove {
   opacity:0;
+   display:block!important;
 }
  
-.d_categoryOrange.ng-hide-add,
-.d_categoryOrange.ng-hide-remove.ng-hide-remove-active {
+.d_categoryAnimate.ng-hide-add,
+.d_categoryAnimate.ng-hide-remove.ng-hide-remove-active {
   opacity:1;
+   display:block!important;
 }
 
 
