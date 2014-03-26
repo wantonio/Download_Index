@@ -15,7 +15,7 @@
 
 <body>
     <div id="content" class="d_content_wrap">
-        <div id="d_wrapper" class="d_content_wrap" ng-app ng-controller="downloadListCtrl">
+        <div id="d_wrapper" class="d_content_wrap" ng-app="downloadIndex" ng-controller="downloadListCtrl">
             <div class="d_hero_area d_content_center">
                 <h1 class="d_headline">
                     Most Popular
@@ -122,7 +122,7 @@
                     <!-- Ends d_searchBarBox -->
                     <div class="d_productByCategorie">
                         <!-- Starts New Category -->
-                        <div class="d_categoryOrange" ng-show="selectCategory=='all' || selectCategory=='NM'">
+                        <div class="d_categoryOrange" ng-show="selectCategory=='all' || selectCategory=='NM'" ng-animate="d_categoryOrange">
                             <div class="d_categoryTitle">
                                 <p>Network Performance Software</p>
                             </div>
@@ -252,7 +252,7 @@
                         </div>
                         <!-- Ends freetools-title -->
                         <!-- Starts New Category -->
-                        <div class="d_categoryOrange" ng-show="selectCategory=='all' || selectCategory=='FT'" ng-animate="'d_categoryOrange'">
+                        <div class="d_categoryOrange" ng-show="selectCategory=='all' || selectCategory=='FT'" >
                             <div class="d_categoryTitle cat-nm">
                                 <p>Network Performance Free Tools</p>
                             </div>

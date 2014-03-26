@@ -1,4 +1,5 @@
-function downloadListCtrl($scope) {
+angular.module('downloadIndex', ['ngAnimate'], function(){
+}).controller('downloadListCtrl', function ($scope) {
     $scope.productCat = [{
             category: "NM",
             featured: "yes",
@@ -1061,7 +1062,7 @@ function downloadListCtrl($scope) {
 
     //Category Selection Default
     $scope.selectCategory = 'all';
-} //end of app
+}); //end of app
 
 
 //Tabs Function
