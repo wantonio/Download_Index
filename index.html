@@ -373,8 +373,8 @@
                     <div class="d_searchBarBox">
                         <div class="d_searchBar d_content_center">
                             <p>Search Products</p>
-                            <input type="text" class="searchText" ng-model="productSearchInput">
-                            <button type="reset" class="btnSearch"  value="" ng-click="productSearchInput=''">Clear</button>
+                            <input  type="text" class="searchText" ng-model="productSearchInput">
+                            <button type="reset" class="btnSearch"  value="" ng-click="productSearchInput=none">Clear</button>
                         </div>
                         <!-- Ends d_searchBar d_content_center -->
                     </div>
@@ -386,7 +386,7 @@
                         <!-- Ends class="d_categoryTitle" -->
                         <div class="d_category">
                             <ul>
-                                <li ng-repeat="product in productCat | filter:{ tags: productSearchInput } | orderBy:'code'">
+                                <li class="productSearchResult" ng-repeat="product in productCat | filter:{ tags: productSearchInput } | orderBy:'code' " ng-animate="productSearchResult">
                                     <div class="d_categories {{product.category}}"  style="background:url(img/Icons/{{product.icon}}) no-repeat 97% 85%">
                                         <p>{{product.name}}</p>
                                         <ul class="d_options">

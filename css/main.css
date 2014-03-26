@@ -213,6 +213,28 @@
 	padding: 3px 5px;
 	border: 1px solid #ddd;
 }
+
+.productSearchResult.ng-enter,.productSearchResult.ng-leave{
+	-webkit-transition:all linear 0.5s;
+	-moz-transition:all linear 0.5s;
+	-o-transition:all linear 0.5s;
+	transition:all linear 0.5s;
+}
+
+.productSearchResult.ng-enter{
+	opacity:0;
+} 
+
+.productSearchResult.ng-enter.ng-enter-active{
+	opacity:1;
+}
+
+.productSearchResult.ng-leave{} 
+
+.productSearchResult.ng-leave.ng-leave-active{
+	opacity:0;
+}
+
 /*------------------------------------------------ Category section ------------------------------------------------*/
  .d_categoryTitle {
     height:40px;
