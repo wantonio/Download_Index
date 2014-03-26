@@ -29,19 +29,19 @@
                         <div class="screenshot">
                             <img src="http://web.swcdn.net/v7.0/creative/images/screenshots/products/NPM/Sm/En/0004_NPM_10-2_ConnectNow-Network-Mapping_Sm_EN.jpg" alt="Network Performance Monitor">
                         </div>
-                        <p>Powerful Network Fault & Availability Management</p>
+                        <p>Powerful Network Fault &amp; Availability Management</p>
                     </li>
 					<li class="SM">
                         <div class="d_background"></div>
-                        <h2>Server & Application Monitor</h2>
+                        <h2>Server &amp; Application Monitor</h2>
                         <div class="screenshot">
                             <img src="http://web.swcdn.net/v7.1/creative/images/screenshots/products/SAM/Sm/En/0019_SAM_5-0_Extensible-Monitoring-for-Custom-Applications-and-Scripts_Sm_EN.jpg" alt="Server &amp; Application Monitor">
                         </div>
-                        <p>Server Monitoring Made Simple – Deploy, Monitor & Resolve</p>
+                        <p>Server Monitoring Made Simple – Deploy, Monitor &amp; Resolve</p>
                     </li>
 					<li class="LEM">
                         <div class="d_background"></div>
-                        <h2>Log & Event Manager</h2>
+                        <h2>Log &amp; Event Manager</h2>
                         <div class="screenshot">
                             <img src="http://web.swcdn.net/v7.1/creative/images/screenshots/products/LEM/Sm/En/0003_LEM_5-4_Cutting-Edge-IT-Search-for-Event-Forensic-Analysis_Sm_EN.jpg" alt="Log &amp; Event Manager">
                         </div>
@@ -112,7 +112,7 @@
                                 <option value="NM">Network Management</option>
                                 <option value="SM">Server &amp; Application Management</option>
                                 <option value="LEM">Security Information &amp; Event Management</option>
-                                <option value="DP">Database Performance</option>
+                                <option value="DP">Database Management</option>
                                 <option value="FT">Free Tools</option>
                             </select>
                             <!-- Ends searchCategory -->
@@ -123,7 +123,7 @@
                     <div class="d_productByCategorie">
                         <!-- Starts New Category -->
                         <div class="d_categoryOrange" ng-if="selectCategory=='all' || selectCategory=='NM'">
-                            <div class="d_categoryTitle cat-nm">
+                            <div class="d_categoryTitle">
                                 <p>Network Performance Software</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-nm -->
@@ -131,7 +131,7 @@
                                 <ul>
                                     <li  ng-repeat="product in productCat  | filter:{category:'NM'}">
                                         <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
-                                            <p>{{product.name}}</p>
+                                            <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                             <ul class="d_options">
                                                 <li class="d_features">
                                                     <a href="#">View features &#38; Specs</a>
@@ -154,15 +154,15 @@
                         <!-- Ends d_categoryOrange -->
                         <!-- Starts New Category -->
                         <div class="d_categoryGreen" ng-if="selectCategory=='all' || selectCategory=='SM'">
-                            <div class="d_categoryTitle cat-sm">
-                                <p> Server & Application Management Software</p>
+                            <div class="d_categoryTitle">
+                                <p> Server &amp; Application Management Software</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-sm -->
                             <div class="d_category" >
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{category:'SM'}">
                                         <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
-                                            <p>{{product.name}}</p>
+                                           <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                             <ul class="d_options">
                                                 <li class="d_features">
                                                     <a href="#">View features &#38; Specs</a>
@@ -185,15 +185,15 @@
                         <!-- Ends d_categoryGreen -->
                         <!-- Starts New Category -->
                         <div class="d_categoryBlue" ng-if="selectCategory=='all' || selectCategory=='LEM'">
-                            <div class="d_categoryTitle cat-lem">
-                                <p>Security Information & Event Management Software</p>
+                            <div class="d_categoryTitle">
+                                <p>Security Information &amp; Event Management Software</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-lem -->
                             <div class="d_category">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{category:'LEM'}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
                                         <div class="d_categories {{product.category}}">
-                                            <p>{{product.name}}</p>
+                                            <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                             <ul class="d_options">
                                                 <li class="d_features">
                                                     <a href="#">View features &#38; Specs</a>
@@ -216,7 +216,7 @@
                         <!-- Ends d_categoryAqua -->
                         <!-- Starts New Category -->
                         <div class="d_categoryAqua" ng-if="selectCategory=='all' || selectCategory=='DP'">
-                            <div class="d_categoryTitle cat-dp">
+                            <div class="d_categoryTitle">
                                 <p>Database Performance Software</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-dp -->
@@ -224,7 +224,7 @@
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{category:'DP'}">
                                         <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
-                                            <p>{{product.name}}</p>
+                                            <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                             <ul class="d_options">
                                                 <li class="d_features">
                                                     <a href="#">View features &#38; Specs</a>
@@ -247,8 +247,7 @@
                         <!-- Ends d_categoryBlue -->
                         <div class="freetools-title" ng-if="selectCategory=='all'">
                             <p>
-                                <strong>Free Network Tools</strong>
-                                & SysAdmin Tools
+                               Free Network Tools & SysAdmin Tools
                             </p>
                         </div>
                         <!-- Ends freetools-title -->
@@ -262,7 +261,7 @@
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{subcategory:'NM'}">
                                         <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
-                                            <p>{{product.name}}</p>
+                                            <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                             <ul class="d_options">
                                                 <li class="d_features">
                                                     <a href="#">View features &#38; Specs</a>
@@ -283,14 +282,14 @@
                         <!-- Starts New Category -->
                         <div class="d_categoryGreen" ng-if="selectCategory=='all' || selectCategory=='FT'">
                             <div class="d_categoryTitle cat-sm">
-                                <p>Server & Application Management Free Tools</p>
+                                <p>Server &amp; Application Management Free Tools</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-sm -->
                             <div class="d_category">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{subcategory:'SM'}">
                                         <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
-                                            <p>{{product.name}}</p>
+                                            <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                             <ul class="d_options">
                                                 <li class="d_features">
                                                     <a href="#">View features &#38; Specs</a>
@@ -311,14 +310,14 @@
                         <!-- Starts New Category -->
                         <div class="d_categoryBlue" ng-if="selectCategory=='all' || selectCategory=='FT'">
                             <div class="d_categoryTitle cat-lem">
-                                <p>Security Information & Event Management Free Tools</p>
+                                <p>Security Information &amp; Event Management Free Tools</p>
                             </div>
                             <!-- Ends d_categoryTitle cat-lem -->
                             <div class="d_category">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{subcategory:'LEM'}">
                                         <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
-                                            <p>{{product.name}}</p>
+                                            <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                             <ul class="d_options">
                                                 <li class="d_features">
                                                     <a href="#">View features &#38; Specs</a>
@@ -346,7 +345,7 @@
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{subcategory:'DP'}">
                                         <div class="d_categories {{product.subcategory}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
-                                            <p>{{product.name}}</p>
+                                            <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                             <ul class="d_options">
                                                 <li class="d_features">
                                                     <a href="#">View features &#38; Specs</a>
@@ -386,7 +385,7 @@
                         <!-- Ends class="d_categoryTitle" -->
                         <div class="d_category">
                             <ul>
-                                <li ng-repeat="product in productCat | filter:{ tags: productSearchInput }">
+                                <li ng-repeat="product in productCat | filter:{ tags: productSearchInput } | orderBy:'code'">
                                     <div class="d_categories {{product.category}}"  style="background:url(img/Icons/{{product.icon}}) no-repeat 97% 85%">
                                         <p>{{product.name}}</p>
                                         <ul class="d_options">
