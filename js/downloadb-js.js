@@ -71,7 +71,7 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
         },
         /*-----end of product-------*/
         {
-            category: "NC",
+            category: "NM",
             featured: "no",
             code: "NBAP",
             name: "Network Bandwidth Analyzer Pack",
@@ -140,7 +140,7 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
         },
         /*-----end of product-------*/
         {
-            category: "NC",
+            category: "NM",
             featured: "no",
             code: "IPCB",
             name: "IP Control Bundle",
@@ -301,7 +301,7 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
         },
         /*-----end of product-------*/
         {
-            category: "NC",
+            category: "NM",
             featured: "no",
             code: "NGB",
             name: "Network Guardian Bundle",
@@ -531,7 +531,7 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
         },
         /*-----end of product-------*/
         {
-            category: "NC",
+            category: "SM",
             featured: "no",
             code: "SCEP",
             name: "System Center Extension Pack",
@@ -995,7 +995,7 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
         {
             code: "VMCC",
             category: "FreeTool",
-            subcategory: "NC",
+            subcategory: "SM",
             name: "VM-to-Cloud Calculator",
             subTitle: "Discovers Virtual Machines & Estimates the Cost to Move to the Cloud",
             icon: "icon-freetoolsBk.png",
@@ -1006,7 +1006,7 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
         {
             code: "VMC",
             category: "FreeTool",
-            subcategory: "NC",
+            subcategory: "SM",
             name: "VM Console",
             subTitle: "Bounces VMs & Tracks Their Status from Your Desktop",
             icon: "icon-freetoolsBk.png",
@@ -1017,7 +1017,7 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
         {
             code: "CPMPC",
             category: "FreeTool",
-            subcategory: "NC",
+            subcategory: "SM",
             name: "Cloud Performance Monitor Powered by CopperEgg",
             subTitle: "Monitor Cloud-based Servers with Ease",
             icon: "icon-freetoolsBk.png",
@@ -1028,7 +1028,7 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
         {
             code: "SRTM",
             category: "FreeTool",
-            subcategory: "NC",
+            subcategory: "SM",
             name: "Storage Response Time Monitor",
             subTitle: "Identifies VMs With High Storage Latency",
             icon: "icon-freetoolsBk.png",
@@ -1040,7 +1040,7 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             code: "SANM",
             category: "FreeTool",
             name: "SAN Monitor",
-            subcategory: "NC",
+            subcategory: "SM",
             subTitle: "Monitors Your Storage Array",
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=997&c=70150000000OhZs",
