@@ -1059,7 +1059,15 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
         }
         /*end of freetool*/
     ];
-
+	
+	//Adding Category or Sub Categorie to search repeat
+	$scope.categoryClassSearch = function(product) {
+		if(product.category == "FreeTool"){
+			return product.subcategory;
+		}else{
+			return product.category;
+		};
+	};
     //Category Selection Default
     $scope.selectCategory = 'all';
 }); //end of app

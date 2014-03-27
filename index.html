@@ -387,7 +387,7 @@
                         <div class="d_category">
                             <ul>
                                 <li class="productSearchResult" ng-repeat="product in productCat | filter:{ tags: productSearchInput } | orderBy:'code' " ng-animate="productSearchResult">
-                                    <div class="d_categories {{product.category}}"  style="background:url(img/Icons/{{product.icon}}) no-repeat 97% 85%">
+                                    <div class="d_categories" ng-class="categoryClassSearch(product)" style="background:url(img/Icons/{{product.icon}}) no-repeat 97% 85%">
                                         <p>{{product.name}}</p>
                                         <ul class="d_options">
                                             <li class="d_features">
