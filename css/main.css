@@ -349,16 +349,16 @@ border-bottom:#237a14 3px solid;
 
 
 .NM.d_categories {
-    border-top: solid 10px #faba23;
+    border-top: solid 7px #faba23;
 }
 .SM.d_categories {
-    border-top: solid 10px #86cc17;
+    border-top: solid 7px #86cc17;
 }
 .LEM.d_categories {
-    border-top: solid 10px #359ac0;
+    border-top: solid 7px #359ac0;
 }
 .DP.d_categories {
-    border-top: solid 10px #45d7cb;
+    border-top: solid 7px #45d7cb;
 }
 .d_categories>p{
 	padding: 5px 0 10px 0;
