@@ -385,7 +385,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f6ee', end
  .d_categories {
     padding:12px;
     border-top: solid 10px #faba23;
-	min-height:112px;
 }
 
 
@@ -432,6 +431,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f6ee', end
 	background-color: #ffffff !important;
 	min-height:136px;
 }
+
+.d_category.d_categoryFreeTools>ul>li {
+	min-height:120px;
+}
+
+
 .d_category>ul>li p {
     font-weight: bold;
     font-size: 15px;
