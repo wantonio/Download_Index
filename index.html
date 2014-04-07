@@ -249,7 +249,7 @@
                         </div>
                         <!-- Ends freetools-title -->
                         <!-- Starts New Category -->
-                        <div class="d_categoryOrange d_categoryAnimate" ng-show="selectCategory=='all' || selectCategory=='FT'" >
+                        <div class="d_categoryFreeToolOrange d_categoryAnimate" ng-show="selectCategory=='all' || selectCategory=='FT'" >
                             <div class="d_categoryTitle cat-nm">
                                 <p>Network Performance Free Tools</p>
                             </div>
@@ -277,7 +277,7 @@
                         </div>
                         <!-- Ends d_categoryOrange -->
                         <!-- Starts New Category -->
-                        <div class="d_categoryGreen d_categoryAnimate" ng-show="selectCategory=='all' || selectCategory=='FT'">
+                        <div class="d_categoryFreeToolGreen d_categoryAnimate" ng-show="selectCategory=='all' || selectCategory=='FT'">
                             <div class="d_categoryTitle cat-sm">
                                 <p>Server &amp; Application Management Free Tools</p>
                             </div>
@@ -305,7 +305,7 @@
                         </div>
                         <!-- Ends d_categoryGreen -->
                         <!-- Starts New Category -->
-                        <div class="d_categoryBlue d_categoryAnimate" ng-show="selectCategory=='all' || selectCategory=='FT'">
+                        <div class="d_categoryFreeToolBlue d_categoryAnimate" ng-show="selectCategory=='all' || selectCategory=='FT'">
                             <div class="d_categoryTitle cat-lem">
                                 <p>Security Information &amp; Event Management Free Tools</p>
                             </div>
@@ -356,7 +356,7 @@
                             <ul>
                                 <li class="productSearchResult" ng-repeat="product in productCat | filter:{ tags: productSearchInput } | orderBy:'code' " ng-animate="productSearchResult">
                                     <div class="d_categories" ng-class="categoryClassSearch(product)" style="background:url(img/Icons/{{product.icon}}) no-repeat 97% 85%">
-                                        <p>{{product.name}}</p>
+                                        <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                         <ul class="d_options">
                                             <li class="d_features">
                                                 <a href="#">View features &#38; Specs</a>

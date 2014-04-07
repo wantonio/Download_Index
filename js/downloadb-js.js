@@ -703,7 +703,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=52&c=70150000000CcH2",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0019_FT-TFTP_Server_Sm_EN.jpg",
-        },
+			tags:"Free Tool, TFTP, Server, SFTP/SCP, TFTP Server & SFTP/SCP Server"
+		},
         /*end of freetool*/
         {
             code: "IPAT",
@@ -714,7 +715,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=912&c=70150000000Ehqn",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0013_FT-IP-Address-Tracker_Sm_EN.jpg",
-        },
+			tags:"Free Tool,IP, Address, Tracker, IP Address Tracker"
+		},
         /*end of freetool*/
         {
             code: "RTBM",
@@ -725,7 +727,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/registrationb.aspx?program=1643&c=70150000000PDzJ",
             imageLink: "http://web.swcdn.net/v7.4/creative/images/screenshots/freeTools/0020_FT-Real-Time-Bandwidth-Monitor_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Real Time, Bandwidth, Monitor,Real-Time Bandwidth Monitor"
+		},
         /*end of freetool*/
         {
             code: "RTNA",
@@ -736,7 +739,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=852&c=70150000000DrSQ",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0015_FT-Real-time-NetFlow-Analyzer_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Real Time, Bandwidth, Monitor,Real-Time Bandwidth Monitor"
+		},
         /*end of freetool*/
         {
             code: "NDM",
@@ -747,7 +751,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=991&c=70150000000OaIF",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0011_FT-Network-Device-Monitor_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Network Device Monitor, Network, Device, Monitor"
+		},
         /*end of freetool*/
         {
             code: "CDRT",
@@ -758,7 +763,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=17167&c=70150000000PWpP",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0028_FT-Call-Detail-Record-Tracker_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Call Detail Record Tracker, Call, Detail, Record, Tracker"
+		},
         /*end of freetool*/
         {
             code: "NCG",
@@ -769,7 +775,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=968&c=70150000000FRws",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0012_FT-Network-Config-Generator_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Network Config Generator, Network, Config, Generator "
+	   },
         /*end of freetool*/
         {
             code: "IPSLA",
@@ -780,7 +787,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=896&c=70150000000EQ0I",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0017_FT-IP-SLA-Monitor_Sm_EN.jpg",
-        },
+			tags:"Free Tool, IP SLA Monitor, IP, SLA, Monitor "
+	   },
         /*end of freetool*/
         {
             code: "SC",
@@ -791,7 +799,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=92&c=70150000000CcHV",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0014_FT-Subnet-Calculator_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Subnet Calculator, Subnet, Calculator"
+	   },
         /*end of freetool*/
         {
             code: "WOL",
@@ -802,7 +811,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=214&c=70150000000CcH1",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0018_FT-Wake-on-LAN_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Wake-on-LAN, Wake on LAN, Wake, LAN"
+		},
         /*end of freetool*/
         {
             code: "NFC",
@@ -813,7 +823,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=523&c=70150000000DGod",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0016_FT-NetFlow-Configurator_Sm_EN.jpg",
-        },
+			tags:"Free Tool, NetFlow Configurator,NetFlow, Configurator"
+		},
         /*end of freetool*/
         {
             code: "FMM",
@@ -824,7 +835,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "http://downloads.solarwinds.com/solarwinds/Release/FreeTool/ZP1/ZP-FMM-Info/ZP-FMM-INFO-DI.html",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/products/MM/Sm/En/0001_FT-Mobile-Monitor_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Mobile Monitor, Mobile, Monitor,NPM,SAM"
+	   },
         /*end of freetool*/
         {
             code: "AC",
@@ -835,7 +847,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/alertcentral/alertcentraldownload.aspx",
             imageLink: "http://web.swcdn.net/creative/images/screenshots/freeTools/0030_FT-Alert-Central_sm_EN.jpg",
-        },
+			tags:"Free Tool, Alert Central, Alert, Central"
+	   },
         /*end of freetool*/
         {
             code: "FB",
@@ -846,7 +859,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/alertcentral/alertcentraldownload.aspx",
             imageLink: "http://web.swcdn.net/creative/images/screenshots/freeTools/0030_FT-Alert-Central_sm_EN.jpg",
-        },
+			tags:"Free Tool, Firewall Browser, Firewall, Browser"
+		},
         /*end of freetool*/
         {
             code: "FTP",
@@ -857,7 +871,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "http://www.serv-u.com/ftpvoyager/free-download.asp",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/products/Free-tools/FTP-Voyager/downloadindex.jpg",
-        },
+			tags:"Free Tool, FTP Voyager Free FTP Client for Windows, FTP, Voyager,Client,Windows"
+		},
         /*end of freetool*/
         {
             code: "IUAT",
@@ -868,7 +883,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=1800&c=70150000000PH8s",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0007_FT-Inactive-User-Account-Removal-Tool_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Inactive User Account Removal Tool, Inactive, User, Account, Removal, Tool"
+		},
         /*end of freetool*/
         {
             code: "ICART",
@@ -879,7 +895,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=1800&c=70150000000PH8s",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0008_FT-Inactive-Computer-Account-Removal-Tool_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Inactive Computer Account Removal Tool, Inactive, Computer, Account, Removal, Tool"
+		},
         /*end of freetool*/
         {
             code: "UIT",
@@ -890,7 +907,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=1800&c=70150000000PH8s",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0009_FT-User-Import-Tool_Sm_EN.jpg",
-        },
+			tags:"Free Tool, User Import Tool, User, Import, Tool"
+		},
         /*end of freetool*/
         {
             code: "DTWA",
@@ -901,7 +919,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "http://downloads.solarwinds.com/solarwinds/Release/FreeTool/ZP1/WSUS-ZP-PM3/WSUS-MoreMoreSoftware.html",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0001_FT-WSUS-Agent_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Diagnostic Tool for the WSUS Agent, Diagnostic, Tool, WSUS Agent"
+	   },
         /*end of freetool*/
         {
             code: "WTW",
@@ -912,7 +931,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=1579&c=70150000000PBhD",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0002_FT-Web-Transaction-Watcher_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Web Transaction Watcher, Web, Transaction, Watcher"
+		},
         /*end of freetool*/
         {
             code: "WMI",
@@ -923,7 +943,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=937&c=70150000000Ezdb",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0006_FT-WMI-Monitor_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Web Transaction Watcher, Web, Transaction, Watcher"
+		},
         /*end of freetool*/
         {
             code: "PAAD",
@@ -934,7 +955,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=1323&c=70150000000OzCs",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0005_FT-Permissions-Analyzer-for-Active-Directory_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Permissions Analyzer for Active Directory, Permissions, Analyzer, Active, Directory"
+		},
         /*end of freetool*/
         {
             code: "EM",
@@ -942,9 +964,11 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             subcategory: "SM",
             name: "Exchange Monitor",
             subTitle: "Monitors Exchange Server's Health in Real Time",
+			icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=825&c=70150000000Djc6",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0010_FT-Exchange-Monitor_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Exchange Monitor, Exchange, Monitor"
+		},
         /*end of freetool*/
         {
             code: "RTAA",
@@ -955,7 +979,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=1421&c=70150000000Mq6X",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0003_FT-Real-Time-AppFlow-Analyzer_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Real-Time AppFlow Analyzer, Real time, AppFlow, Analyzer"
+		},
 
         /*end of freetool*/
 
@@ -968,7 +993,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=1382&c=70150000000P2cK",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0004_FT-SNMP-Enabler-for-Windows_Sm_EN.jpg",
-        },
+			tags:"Free Tool, SNMP Enabler for Windows, SNMP, Enabler,Windows"
+		},
         /*end of freetool*/
         {
             code: "KSS",
@@ -979,7 +1005,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "http://www.kiwisyslog.com/free-edition.aspx?productType=ks&AppID=876&CampaignID=70150000000Es8J",
             imageLink: "http://web.swcdn.net/creative/images/products/Free-tools/kiwi-syslog/free-tool-thumb.png",
-        },
+			tags:"Free Tool, Kiwi, Syslog, Server"
+		},
         /*end of freetool*/
         {
             code: "VMM",
@@ -989,8 +1016,9 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             subTitle: "Monitors the Performance of VMware & Hyper-V Hosts",
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=864&c=70150000000E3pU",
-            imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0025_FT-VM-Monitor_Sm_EN.jpg",
-        },
+			imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0025_FT-VM-Monitor_Sm_EN.jpg",
+			tags:"Free Tool, VM Monitor, VM, Monitor"
+		},
         /*end of freetool*/
         {
             code: "VMCC",
@@ -1001,7 +1029,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=1521&c=70150000000PANv",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0023_FT-VM-to-Cloud-Calculator_Sm_EN.jpg",
-        },
+			tags:"Free Tool, VM-to-Cloud Calculator"
+		},
         /*end of freetool*/
         {
             code: "VMC",
@@ -1012,7 +1041,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=1320&c=70150000000OzCi",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0024_FT-VM-Console_Sm_EN.jpg",
-        },
+			tags:"Free Tool, VM Console, VM, Console"
+		},
         /*end of freetool*/
         {
             code: "CPMPC",
@@ -1023,7 +1053,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=12119&c=70150000000PUtx",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0027_FT-Cloud-Performance-Monitor_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Cloud Performance Monitor Powered by CopperEgg, Cloud, Performance, Monitor, Powered, CopperEgg"
+		},
         /*end of freetool*/
         {
             code: "SRTM",
@@ -1034,7 +1065,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=1645&c=70150000000PEMX",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0022_FT-Storage-Response-Time-Monitor_Sm_EN.jpg",
-        },
+			tags:"Free Tool, Storage Response Time Monitor,Storage, Response, Time, Monitor"
+		},
         /*end of freetool*/
         {
             code: "SANM",
@@ -1045,7 +1077,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=997&c=70150000000OhZs",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0021_FT-SAN-Monitor_Sm_EN.jpg",
-        },
+			tags:"Free Tool, SAN Monitor, SAN, Monitor"
+		},
         /*end of freetool*/
         {
             code: "ELC",
@@ -1056,7 +1089,8 @@ angular.module('downloadIndex', ['ngAnimate'], function(){
             icon: "icon-freetoolsBk.png",
             donwloadLink: "/register/index.aspx?Program=1857&c=70150000000PIFp",
             imageLink: "http://web.swcdn.net/v7.1/creative/images/screenshots/freeTools/0026_FT-Event-Log-Consolidator_Sm_EN.jpg",
-        }
+			tags:"Free Tool, Event Log Consolidator, Event, Log, Consolidator"
+		}
         /*end of freetool*/
     ];
 	
