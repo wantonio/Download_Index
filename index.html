@@ -361,7 +361,7 @@
                         <!-- Ends class="d_categoryTitle" -->
                         <div class="d_category">
                             <ul>
-                                <li class="productSearchResult" ng-repeat="product in productCat | filter:{ tags: productSearchInput } | orderBy:'category' " ng-animate="productSearchResult">
+                                <li class="productSearchResult" ng-repeat="product in productCat | filter:{ tags: productSearchInput } | orderBy:'order' " ng-animate="productSearchResult">
                                     <div class="d_categories" ng-class="categoryClassSearch(product)" style="background:url(img/Icons/{{product.icon}}) no-repeat 97% 85%">
                                         <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                         <ul class="d_options">
