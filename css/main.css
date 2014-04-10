@@ -1,3 +1,42 @@
+/*********************************** Layout ***********************************/
+.container_12 {
+    width:100%!important;
+}
+
+.headerContent, .toptabs, .wrapperFooter .footer {
+    margin: 0 auto!important;
+    width: 1024px!important;
+}
+
+.headerContent .topRightNav {
+    float: right!important;
+}
+
+#megamenu{
+    width: 1024px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-image: url('/creative/images/landing_pages/microsoft/megamenu_bg.png');
+    background-repeat: repeat-x;
+    z-index: 150;
+}
+.container {
+    width: 1024px;
+}
+.content {
+    overflow: hidden;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.toptabs .rightTabs .info .iconContainer{
+	width:20px!important;
+}
+
+.searchFieldBtn{
+	height:19px!important;
+}
 /*------------------------------------------------ Fonts ------------------------------------------------*/
 
 /*------------------------------------------------ Layout ------------------------------------------------*/
@@ -28,26 +67,22 @@
     text-transform: uppercase;
 	width: 170px;
 margin: 0 auto;
-border-left:#237a14 3px solid;
-border-bottom:#237a14 3px solid;
 }
 
 .d_btn {}
 .d_green {
     background-color: #2fb91b;
 }
-.d_btn .d_textWrap {
-    transition: all 0.3s;
-}
-.d_btn:hover .d_textWrap {
-    margin-top: -30px;
-}
+
 .d_btn .d_download, .d_btn .d_fully {
     display: block;
     width: 100%;
 }
-.d_btn .d_fully {
-    font-size: 12px;
+.d_quadrant li .d_fully {
+    font-size: 11px;
+	margin-top: 5px;
+	display: block;
+	color: #fff;
 }
 /*------------------------------------------------ Tabs section ------------------------------------------------*/
  .d_tabs {
@@ -117,9 +152,9 @@ border-bottom:#237a14 3px solid;
 }
 .d_quadrant li h2 {
     min-height: 25px;
-    font: 700 14px'OpenSansBold', sans-serif;
+    font: 700 14px'OpenSansSemiBold', sans-serif;
     color: #000000;
-    color: rgba(0, 0, 0, 0.5);
+    color: #fff;
 	margin-bottom:5px;
 }
 .d_quadrant li .screenshot {

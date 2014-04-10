@@ -59,37 +59,37 @@
                         <a href="/register/index.aspx?Program=607&c=70150000000Dlbw" class="d_btn d_green">
                             <div class="d_textWrap">
                                 <span class="d_download">DOWNLOAD FREE TRIAL</span>
-                                <span class="d_fully">Fully Functional for 30 days</span>
                             </div>
                             <!-- Ends d_textWrap -->
                         </a>
+						<span class="d_fully">Fully Functional for 30 days</span>
                     </li>
 					<li class="SM">
                         <a href="/register/index.aspx?Program=857&c=70150000000Dtb9" class="d_btn d_green">
                             <div class="d_textWrap">
-                                <span class="d_download">DOWNLOAD FREE TRIAL</span>
-                                <span class="d_fully">Fully Functional for 30 days</span>
+                                <span class="d_download">DOWNLOAD FREE TRIAL</span> 
                             </div>
                             <!-- Ends d_textWrap -->
                         </a>
+						<span class="d_fully">Fully Functional for 30 days</span>
                     </li>
 					<li class="LEM">
                         <a href="/register/index.aspx?Program=1520&c=70150000000PExs" class="d_btn d_green">
                             <div class="d_textWrap">
                                 <span class="d_download">DOWNLOAD FREE TRIAL</span>
-                                <span class="d_fully">Fully Functional for 30 days</span>
                             </div>
                             <!-- Ends d_textWrap -->
                         </a>
+						<span class="d_fully">Fully Functional for 30 days</span>
                     </li>
 					<li class="DP">
                         <a href="/register/registrationb.aspx?Program=18512&c=70150000000RdaM" class="d_btn d_green">
                             <div class="d_textWrap">
                                 <span class="d_download">DOWNLOAD FREE TRIAL</span>
-                                <span class="d_fully">Fully Functional for 14 days</span>
                             </div>
                             <!-- Ends d_textWrap -->
                         </a>
+						<span class="d_fully">Fully Functional for 14 days</span>
                     </li>
                 </ul>
                 <!-- Ends d_quadrant d_buttons -->
@@ -130,14 +130,15 @@
                                         <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
                                             <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                             <ul class="d_options">
-                                                <li class="d_features">
-                                                    <a href="{{product.productPageLink}}">View features &#38; Specs</a>
-                                                </li>
+
                                                 <li class="d_download">
                                                     <a href="{{product.donwloadLink}}">Download Free Trial</a>
                                                 </li>
                                                 <li class="d_demo" ng-hide="product.demolink == 'none'">
                                                     <a href="{{product.demolink}}">Interactive Demo</a>
+                                                </li>
+																																				<li class="d_features">
+                                                    <a href="{{product.productPageLink}}">View features &#38; Specs</a>
                                                 </li>
                                             </ul>
                                             <!-- Ends d_options -->
@@ -161,14 +162,15 @@
                                         <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
                                            <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                             <ul class="d_options">
-                                                <li class="d_features">
-                                                    <a href="{{product.productPageLink}}">View features &#38; Specs</a>
-                                                </li>
+                                                
                                                 <li class="d_download">
                                                     <a href="{{product.donwloadLink}}">Download Free Trial</a>
                                                 </li>
                                                 <li class="d_demo" ng-hide="product.demolink == 'none'">
                                                     <a href="{{product.demolink}}">Interactive Demo</a>
+                                                </li>
+												<li class="d_features">
+                                                    <a href="{{product.productPageLink}}">View features &#38; Specs</a>
                                                 </li>
                                             </ul>
                                             <!-- Ends d_options -->
@@ -192,14 +194,15 @@
                                         <div class="d_categories {{product.category}}">
                                             <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                             <ul class="d_options">
-                                                <li class="d_features">
-                                                    <a href="{{product.productPageLink}}">View features &#38; Specs</a>
-                                                </li>
+                                                
                                                 <li class="d_download">
                                                     <a href="{{product.donwloadLink}}">Download Free Trial</a>
                                                 </li>
                                                 <li class="d_demo" ng-hide="product.demolink == 'none'">
                                                     <a href="{{product.demolink}}">Interactive Demo</a>
+                                                </li>
+												<li class="d_features">
+                                                    <a href="{{product.productPageLink}}">View features &#38; Specs</a>
                                                 </li>
                                             </ul>
                                             <!-- Ends d_options -->
@@ -223,14 +226,15 @@
                                         <div class="d_categories {{product.category}}" style="background:url(img/Icons/{{product.icon}})no-repeat 97% 85%">
                                             <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                             <ul class="d_options">
-                                                <li class="d_features">
-                                                    <a href="{{product.productPageLink}}">View features &#38; Specs</a>
-                                                </li>
+                                                
                                                 <li class="d_download">
                                                     <a href="{{product.donwloadLink}}">Download Free Trial</a>
                                                 </li>
                                                 <li class="d_demo" ng-hide="product.demolink == 'none'">
                                                     <a href="{{product.demolink}}">Interactive Demo</a>
+                                                </li>
+												<li class="d_features">
+                                                    <a href="{{product.productPageLink}}">View features &#38; Specs</a>
                                                 </li>
                                             </ul>
                                             <!-- Ends d_options -->
@@ -257,14 +261,15 @@
                             <div class="d_category d_categoryFreeTools">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{subcategory:'NM'}">
-                                        <div class="d_categories {{product.subcategory}}" >
+                                        <div class="d_categories NM" >
                                             <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                             <ul class="d_options">
-                                                <li class="d_features">
-                                                    <a href="{{product.productPageLink}}">View features &#38; Specs</a>
-                                                </li>
+                                                
                                                 <li class="d_download">
                                                     <a href="{{product.donwloadLink}}">Download Free Tool</a>
+                                                </li>
+												<li class="d_features">
+                                                    <a href="{{product.productPageLink}}">View features &#38; Specs</a>
                                                 </li>
                                             </ul>
                                             <!-- Ends d_options -->
@@ -285,14 +290,15 @@
                             <div class="d_category d_categoryFreeTools">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{subcategory:'SM'}">
-                                        <div class="d_categories {{product.subcategory}}" >
+                                        <div class="d_categories SM" >
                                             <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                             <ul class="d_options">
-                                                <li class="d_features">
-                                                    <a href="{{product.productPageLink}}">View features &#38; Specs</a>
-                                                </li>
+                                                
                                                 <li class="d_download">
                                                     <a href="{{product.donwloadLink}}">Download Free Tool</a>
+                                                </li>
+												<li class="d_features">
+                                                    <a href="{{product.productPageLink}}">View features &#38; Specs</a>
                                                 </li>
                                             </ul>
                                             <!-- Ends d_options -->
@@ -313,14 +319,15 @@
                             <div class="d_category d_categoryFreeTools">
                                 <ul>
                                     <li ng-repeat="product in productCat | filter:{subcategory:'LEM'}">
-                                        <div class="d_categories {{product.subcategory}}" >
+                                        <div class="d_categories LEM" >
                                             <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                             <ul class="d_options">
-                                                <li class="d_features">
-                                                    <a href="{{product.productPageLink}}">View features &#38; Specs</a>
-                                                </li>
+                                                
                                                 <li class="d_download">
                                                     <a href="{{product.donwloadLink}}">Download Free Tool</a>
+                                                </li>
+												<li class="d_features">
+                                                    <a href="{{product.productPageLink}}">View features &#38; Specs</a>
                                                 </li>
                                             </ul>
                                             <!-- Ends d_options -->
@@ -354,18 +361,19 @@
                         <!-- Ends class="d_categoryTitle" -->
                         <div class="d_category">
                             <ul>
-                                <li class="productSearchResult" ng-repeat="product in productCat | filter:{ tags: productSearchInput } | orderBy:'code' " ng-animate="productSearchResult">
+                                <li class="productSearchResult" ng-repeat="product in productCat | filter:{ tags: productSearchInput } | orderBy:'category' " ng-animate="productSearchResult">
                                     <div class="d_categories" ng-class="categoryClassSearch(product)" style="background:url(img/Icons/{{product.icon}}) no-repeat 97% 85%">
                                         <p><a href="{{product.productPageLink}}">{{product.name}}</a></p>
                                         <ul class="d_options">
-                                            <li class="d_features">
-                                                <a href="{{product.productPageLink}}">View features &#38; Specs</a>
-                                            </li>
+                                            
                                             <li class="d_download">
                                                 <a href="{{product.donwloadLink}}">Download Free Trial</a>
                                             </li>
                                             <li class="d_demo">
                                                 <a href="{{product.demolink}}">Interactive Demo</a>
+                                            </li>
+											<li class="d_features">
+                                                <a href="{{product.productPageLink}}">View features &#38; Specs</a>
                                             </li>
                                         </ul>
                                         <!-- Ends d_options -->
@@ -381,80 +389,6 @@
                 <!-- Ends searchTab -->
             </ul>
             <!-- Ends d_tabContent -->
-            <div class="d_content_wrap d_thwack">
-                <div class="d_content_center">
-
-                    <div class="d_header">
-                        <img src="img/thwack.png" height="82" width="186" class="sprite-resources-thwack d_logo">
-                        <div class="d_subheader">
-                            <h3 class="d_subHeadline">Meet our family of pros on thwack.</h3>
-                            <p>
-                                Get expert insights from our community of over 125,000 members.
-                            </p>
-                        </div>
-                        <!-- Ends d_subheader -->
-                        <a href="http://thwack.solarwinds.com/welcome" class="d_btn d_grey">VISIT COMMUNITY</a>
-                    </div>
-                    <!-- Ends d_header -->
-
-                    <div class="d_thwackList">
-                        <ul class="d_thwackHeaders">
-                            <li>
-                                <div class="d_title">MVP</div>
-                                <div class="d_userDescp">
-                                    <img src="http://thwack.solarwinds.com/people/dclick/avatar/46.png" class="picture">
-                                    <p class="d_name">dclick</p>
-                                    <p class="d_position">Sr. Infrastructure Manager</p>
-                                </div>
-                                <!-- Ends d_userDescp -->
-                                <p class="d_quote">
-                                    I have been in the networking field for over 20 years as a tech. I recently passed the Cisco CCNA certification exam (WHOOT!), and manage a decently sized network with over 200 switches, routers, and firewalls.
-                                </p>
-                            </li>
-                            <li>
-                                <div class="d_title">MVP</div>
-                                <div class="d_userDescp">
-                                    <img src="http://thwack.solarwinds.com/people/Jfrazier/avatar/46.png" class="picture">
-                                    <p class="d_name">Jfrazier</p>
-                                    <p class="d_position">Manager Enterprise Monitoring Technologies</p>
-                                </div>
-                                <!-- Ends d_userDescp -->
-                                <p class="d_quote">
-                                    Been in IT for almost 30 years. Helped build and develop an Automated Operations Team before Enterprise Mgt was cool. Working in several different shops over the years has exposed me to a number of different challenges regarding monitoring and alerting.
-                                </p>
-                            </li>
-                            <li>
-                                <div class="d_title">MVP</div>
-                                <div class="d_userDescp">
-                                    <img src="http://thwack.solarwinds.com/people/bluefunelemental/avatar/46.png" class="picture">
-                                    <p class="d_name">Bluefunelemental</p>
-                                    <p class="d_position">Manager – Broadcast Network Engineering</p>
-                                </div>
-                                <!-- Ends d_userDescp -->
-                                <p class="d_quote">
-                                    Been in IT for almost 30 years. Helped build and develop an Automated Operations Team before Enterprise Mgt was cool. Working in several different shops over the years has exposed me to a number of different challenges regarding monitoring and alerting.
-                                </p>
-                            </li>
-                        </ul>
-                        <!-- Ends d_thwackHeaders -->
-                        <ul class="d_thwackButtons">
-                            <li>
-                                <a href="http://thwack.solarwinds.com/people/dclick/activity" class="btn viewMore" target="_blank">VIEW thwack POSTS</a>
-                            </li>
-                            <li>
-                                <a href="http://thwack.solarwinds.com/people/Jfrazier/activity" class="btn viewMore" target="_blank">VIEW thwack POSTS</a>
-                            </li>
-                            <li>
-                                <a href="http://thwack.solarwinds.com/people/bluefunelemental/activity" class="btn viewMore" target="_blank">VIEW thwack POSTS</a>
-                            </li>
-                        </ul>
-                        <!-- Ends d_thwackButtons -->
-                    </div>
-                    <!-- Ends d_thwackList -->
-                </div>
-                <!-- Ends d_content_center -->
-            </div>
-            <!-- Ends d_content_wrap d_thwack -->
         </div>
         <!-- Ends d_wrapper d_content_wrap -->
     </div>
